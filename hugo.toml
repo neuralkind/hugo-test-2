@@ -1,5 +1,14 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'mini'
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Title of hugo toml"
 
+[params]
+includeListPagesInTaxonomyLists = false
+
+[taxonomies]
+person="persons"
+society="societies"
+group="groups"
+
+[markup.goldmark.renderer]
+  unsafe = true

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Title }}</title>
+</head>
+<body>
+
+  <!-- Debugging: Check the page kind -->
+  <code>Rendering page kind: {{ .Kind }}</code>
+
+  <!-- Debugging: Show which layout is being used -->
+  <code>Using layout: {{ .Layout }}</code>
+
+  <!-- Include the partial for society/person dropdowns and navigation links -->
+  {{ partial "dropdowns.html" . }}
+
+  <!-- Your main content will go here -->
+  {{ block "main" . }}{{ end }}
+
+</body>
+</html>

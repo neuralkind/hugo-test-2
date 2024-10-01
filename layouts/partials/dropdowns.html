@@ -1,0 +1,194 @@
+<!-- Society Selection -->
+<label for="society-select">Select Society:</label>
+<select id="society-select">
+  <option value="">--Select Society--</option>
+  {{ range $society := .Site.Pages }}
+  {{ if and (eq $society.Section "societies") (not $society.IsHome) }}
+  <option value="{{ $society.Title | urlize }}">{{ $society.Title }}</option>
+
+  <!-- Debugging: Print out the society's content from its _index.md -->
+  <script>
+    console.log('DEBUG: Society Title:', '{{ $society.Title }}');
+    console.log('DEBUG: Society Content:', '{{ printf "%s" $society.Content | safeJS }}');
+  </script>
+  {{ end }}
+  {{ end }}
+</select>
+
+<!-- Person Selection -->
+<label for="person-select">View as:</label>
+<select id="person-select">
+  <option value="">--Select Person--</option>
+  {{ range $person := .Site.Pages }}
+  {{ if eq $person.Section "persons" }}
+  {{ $personName := $person.Title | urlize }}
+  {{ $personUUID := $person.Params.person_id }}
+  {{ $personSociety := $person.Params.society }}
+
+  <!-- Debugging: Check if the personSociety field is correctly retrieved -->
+  <script>
+    console.log('DEBUG: Person Name:', '{{ $person.Title }}');
+    console.log('333 DEBUG: Person UUID:', '{{ $personUUID }}');
+    console.log('DEBUG: Person Society Field from Params (before processing):', '{{ $person.Params.society }}');
+    console.log('DEBUG: Processed Person Society:', '{{ $personSociety }}');
+  </script>
+
+  {{ if $personSociety }}
+  <!-- If personSociety is not null or empty, add the person to the dropdown -->
+  <option value="{{ $personUUID }}" data-society="{{ $person.Params.society | urlize }}">
+    {{ $personName }} <!-- Display the person's name in the dropdown -->
+  </option>
+
+  <!-- Debugging to track each option being added -->
+  <script>
+    console.log('DEBUG: Adding person to dropdown: {{ $person.Title }} with society {{ $personSociety | urlize }}');
+  </script>
+  {{ else }}
+  <!-- Debugging: Person does not have a society -->
+  <script>
+    console.log('DEBUG: Skipping person {{ $person.Title }} because society is null or empty.');
+  </script>
+  {{ end }}
+  {{ end }}
+  {{ end }}
+</select>
+
+<!-- Navigation Links -->
+<nav>
+  <a href="/">Home</a> |
+  <a href="/call" id="call-link">Calls</a> |
+  <a href="/chat" id="chat-link">Chats</a> |
+  <a href="/monologue" id="monologue-link">Monologues</a> |
+  <a href="/societies">Societies</a> |
+  <a href="/persons">Persons</a> |
+  <a href="/groups">Groups</a>
+</nav>
+
+
+<!-- JavaScript to Handle Selection and Navigation -->
+<script>
+  (function () {
+    const societySelect = document.getElementById('society-select');
+    const personSelect = document.getElementById('person-select');
+    const callLink = document.getElementById('call-link');
+    const chatLink = document.getElementById('chat-link');
+    const monologueLink = document.getElementById('monologue-link');
+
+    // Load selected society and person from localStorage
+    const selectedSociety = localStorage.getItem('selectedSociety') || '';
+    const selectedPerson = localStorage.getItem('selectedPerson') || '';
+
+    // Debugging: Check initial loaded values
+    console.log('DEBUG: Loaded selectedSociety from localStorage:', selectedSociety);
+    console.log('DEBUG: Loaded selectedPerson from localStorage:', selectedPerson);
+
+    // Function to update person options based on selected society
+    function updatePersonSelect(society) {
+      console.log('DEBUG: updatePersonSelect triggered for society:', society);
+
+      const personOptions = personSelect.querySelectorAll('option');
+      console.log('DEBUG: Number of person options:', personOptions.length);
+
+      personOptions.forEach(function (option) {
+        const personSociety = option.getAttribute('data-society');
+        console.log('DEBUG: Checking person option:', option.value);
+        console.log('DEBUG: Person belongs to society:', personSociety);
+
+        if (!personSociety) {
+          console.log('DEBUG: Skipping this option because data-society is null or empty');
+          return;
+        }
+
+        if (society === '' || personSociety === society) {
+          console.log('DEBUG: Showing person option:', option.value);
+          option.style.display = 'block';
+        } else {
+          console.log('DEBUG: Hiding person option:', option.value);
+          option.style.display = 'none';
+
+          // If the currently selected person is not in the selected society, reset selection
+          if (option.value === personSelect.value) {
+            console.log('DEBUG: Deselecting person because it doesn\'t belong to selected society:', option.value);
+            personSelect.value = '';
+            localStorage.removeItem('selectedPerson');
+          }
+        }
+      });
+    }
+
+    // Update navigation links based on selected person
+    function updateNavigationLinks() {
+      const person = personSelect.value;
+      console.log('DEBUG: Updating navigation links for person:', personSelect);
+      console.log('DEBUG: Updating navigation links for person:', person);
+
+      if (person) {
+        const queryParam = '?person=' + encodeURIComponent(person);
+        callLink.href = '/call' + queryParam;
+        chatLink.href = '/chat' + queryParam;
+        monologueLink.href = '/monologue' + queryParam;
+        console.log('DEBUG: Updated links with person query:', {
+          callLink: callLink.href,
+          chatLink: chatLink.href,
+          monologueLink: monologueLink.href
+        });
+      } else {
+        callLink.href = '/call';
+        chatLink.href = '/chat';
+        monologueLink.href = '/monologue';
+        console.log('DEBUG: Reset links without person.');
+      }
+    }
+
+    // Initial setup for loading previously selected values
+    if (selectedSociety) {
+      societySelect.value = selectedSociety;
+      console.log('DEBUG: Setting society select to:', selectedSociety);
+    }
+    if (selectedPerson) {
+      personSelect.value = selectedPerson;
+      console.log('DEBUG: Setting person select to:', selectedPerson);
+    }
+
+    updatePersonSelect(societySelect.value);
+    updateNavigationLinks();
+
+    // Event listener for society selection changes
+    societySelect.addEventListener('change', function () {
+      const society = this.value;
+      console.log('DEBUG: Society selected:', society);
+      localStorage.setItem('selectedSociety', society);
+      updatePersonSelect(society);
+      updateNavigationLinks();
+    });
+
+
+
+
+
+
+    // Event listener for person selection changes
+    personSelect.addEventListener('change', function () {
+      const person = this.value;
+      console.log('111 DEBUG: Person selected:', this);
+      console.log('222 DEBUG: Person selected:', person);
+      localStorage.setItem('selectedPerson', person);
+      updateNavigationLinks();
+
+      // Navigate to chat page with the selected person
+
+      // if (person) {
+      //     const interactionType =window.location.href.split('/').slice(-2)[0];
+
+
+
+      //   console.log('222 DEBUG: Navigating to:', url);
+      //   window.location.href = interactionType;  // Redirect to the chat page with the person query parameter
+      //   window.location.href = url;  // Redirect to the chat page with the person query parameter
+      // }
+    });
+
+
+
+  })();
+</script>

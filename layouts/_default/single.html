@@ -1,0 +1,76 @@
+{{ define "main" }}
+  <code>[Entering layouts/_default/single.html]</code>
+
+  <!-- Display the title of the page -->
+  <h1>{{ .Title }}</h1>
+
+  <!-- Display the content of the page -->
+  {{ .Content }}
+
+  <!-- Related Content -->
+  <h2>Related Content</h2>
+
+  <!-- Pre-rendered Related Content -->
+  <div id="related-content">
+    {{ $currentPersons := .Params.persons }}
+    {{ if $currentPersons }}
+
+      <!-- Monologues -->
+      <h3>Monologues</h3>
+      <ul>
+        {{ range where .Site.RegularPages "Section" "monologue" }}
+          {{ $itemPersons := .Params.persons}}        
+          <script>
+            console.log('111 DEBUG: Item Persons:', '{{ $itemPersons }}');
+          </script>
+          <li class="related-item" data-persons="{{ delimit $itemPersons " " }}">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </li>
+        {{ end }}
+      </ul>
+
+      <!-- Calls -->
+      <h3>Calls</h3>
+      <ul>
+        {{ range where .Site.RegularPages "Section" "call" }}
+          {{ $itemPersons := .Params.persons}}
+          <li class="related-item" data-persons="{{ delimit $itemPersons " " }}">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </li>
+        {{ end }}
+      </ul>
+
+      <!-- Chats -->
+      <h3>Chats</h3>
+      <ul>
+        {{ range where .Site.RegularPages "Section" "chat" }}
+          {{ $itemPersons := .Params.persons}}
+          <li class="related-item" data-persons="{{ delimit $itemPersons " " }}">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </li>
+        {{ end }}
+      </ul>
+
+    {{ else }}
+      <p>No persons associated with this content.</p>
+    {{ end }}
+  </div>
+
+  <!-- JavaScript to Filter Related Content -->
+  <script>
+    (function() {
+      const selectedPerson = localStorage.getItem('selectedPerson');
+      if (selectedPerson) {
+        const relatedItems = document.querySelectorAll('.related-item');
+        relatedItems.forEach(function(item) {
+          const itemPersons = item.getAttribute('data-persons').split(' ');
+          if (!itemPersons.includes(selectedPerson)) {
+            item.style.display = 'none';
+          }
+        });
+      }
+    })();
+  </script>
+
+  <code>[Exiting layouts/_default/single.html]</code>
+{{ end }}

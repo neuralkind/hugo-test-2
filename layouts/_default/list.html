@@ -1,0 +1,87 @@
+{{ define "main" }}
+  <code>[Entering layouts/_default/list.html]</code>
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  <!-- Content Container -->
+  <div id="content-list">
+    {{ range .Pages }}
+      {{ $urlizedPersons := apply .Params.persons "urlize" "." }}
+      <div class="content-item" data-persons="{{ delimit $urlizedPersons " " }}">
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p>{{ .Summary }}</p>
+        {{ if .Truncated }}
+          <p><a href="{{ .RelPermalink }}">Continue reading...</a></p>
+        {{ end }}
+      </div>
+    {{ else }}
+      <p>No content found for this section.</p>
+    {{ end }}
+  </div>
+
+  <!-- No Results Message -->
+  <div id="no-results" class="hidden">
+    <p>No content found for the selected person.</p>
+  </div>
+
+  <!-- JavaScript for Filtering Content -->
+  <script>
+    (function() {
+      const contentItems = document.querySelectorAll('.content-item');
+      const noResults = document.getElementById('no-results');
+      const personSelect = document.getElementById('person-select');
+
+      // Function to filter content items based on the selected person
+      function filterContent(selectedPerson) {
+        if (selectedPerson) {
+          // Save selected person to localStorage
+          localStorage.setItem('selectedPerson', selectedPerson);
+          // Update the person select dropdown
+          if (personSelect) {
+            personSelect.value = selectedPerson;
+          }
+
+          // Filter content items
+          let visibleItemCount = 0;
+          contentItems.forEach(function(item) {
+            const persons = item.getAttribute('data-persons').split(' ');
+            if (persons.includes(selectedPerson)) {
+              item.style.display = 'block';
+              visibleItemCount++;
+            } else {
+              item.style.display = 'none';
+            }
+          });
+
+          // Show 'No Results' message if no items are visible
+          if (visibleItemCount === 0) {
+            noResults.classList.remove('hidden');
+          } else {
+            noResults.classList.add('hidden');
+          }
+        } else {
+          // If no person is selected, ensure all items are visible
+          contentItems.forEach(function(item) {
+            item.style.display = 'block';
+          });
+          noResults.classList.add('hidden');
+        }
+      }
+
+      // Initial filtering on page load
+      const urlParams = new URLSearchParams(window.location.search);
+      const initialSelectedPerson = urlParams.get('person') || localStorage.getItem('selectedPerson');
+      filterContent(initialSelectedPerson);
+
+      // Event listener for person selection changes
+      if (personSelect) {
+        personSelect.addEventListener('change', function() {
+          const newSelectedPerson = this.value;
+          filterContent(newSelectedPerson);
+        });
+      }
+    })();
+  </script>
+
+  <code>[Exiting layouts/_default/list.html]</code>
+{{ end }}
