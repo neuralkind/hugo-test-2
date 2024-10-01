@@ -51,6 +51,29 @@
         {{ end }}
       </ul>
 
+      <!-- Activity -->
+      <h3>Activity</h3>
+      <ul>
+        {{ range where .Site.RegularPages "Section" "activity" }}
+          {{ $itemPersons := .Params.persons}}
+          <li class="related-item" data-persons="{{ delimit $itemPersons " " }}">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </li>
+        {{ end }}
+      </ul>
+
+      <!-- Conversation -->
+      <h3>Conversation</h3>
+      <ul>
+        {{ range where .Site.RegularPages "Section" "conversation" }}
+          {{ $itemPersons := .Params.persons}}
+          <li class="related-item" data-persons="{{ delimit $itemPersons " " }}">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </li>
+        {{ end }}
+      </ul>
+
+
     {{ else }}
       <p>No persons associated with this content.</p>
     {{ end }}
