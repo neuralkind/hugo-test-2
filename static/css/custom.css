@@ -1,0 +1,23 @@
+.h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    color: red;
+}
+
+.lato-30-red {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: blue;
+}
+
+.bebas-30-black {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    color: red;
+}
+
+/* 
+.roboto-30-red
+.lato-30-red
+.bebas-30-black
+*/
