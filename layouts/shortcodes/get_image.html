@@ -1,0 +1,7 @@
+{{ $imagePath := .Get 0 }}
+{{ $image := resources.GetMatch $imagePath }}
+{{ if $image }}
+  <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+{{ else }}
+  <p>Image not found: {{ $imagePath }}</p>
+{{ end }}
