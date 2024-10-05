@@ -7,7 +7,12 @@ groups = ['5e45a963-ab93-4dca-bd6c-e81e7b760d98', '01c2a365-7d29-480e-93b5-76971
 +++
 This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/f4ee81ea-4f97-414a-afbf-e758772902a9/_index.md
 
-<div class="h1_right">Leila Thompson</div><br>
+<div class="h1_1_right">Leila Thompson</div>{{< get_image "persons/f4ee81ea-4f97-414a-afbf-e758772902a9/photo/profile.png" >}}
+<br>
+{{< audio
+    path="persons/f4ee81ea-4f97-414a-afbf-e758772902a9/biography/biography_audio_part/001_001_001.mp3" 
+    caption="None"
+>}}
 <br>
 <div class="h2">Persona</div><div class="plain">Leila Thompson, a 26-year-old fashion designer from Seattle, Washington, embodies creativity and independence. Deeply passionate about fashion, she connects with it through photography, sketching, and attending fashion events. A graduate of the Fashion Institute of Technology, she relocated to New York to build a fashion brand and dreams of opening a flagship store. Leila's impressive skills include sewing, marketing, and networking, although she finds financial management a challenge. While driven by creativity and confidence, she can be overly critical of others' fashion choices. Embracing an agnostic worldview, her emotional resilience is maintained through creative activities and meditation, despite momentary anxiety.
 

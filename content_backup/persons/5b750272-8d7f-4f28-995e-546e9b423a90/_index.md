@@ -7,7 +7,7 @@ groups = ['b3d865c7-e1ce-44ed-95bb-2c4bbbd253d6']
 +++
 This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/5b750272-8d7f-4f28-995e-546e9b423a90/_index.md
 
-<div class="h1_right">Mika Fujimoto</div>{{< get_image "persons/5b750272-8d7f-4f28-995e-546e9b423a90/photo/profile.png" >}}
+<div class="h1_1_right">Mika Fujimoto</div>{{< get_image "persons/5b750272-8d7f-4f28-995e-546e9b423a90/photo/profile.png" >}}
 <br>
 {{< audio
     path="persons/5b750272-8d7f-4f28-995e-546e9b423a90/biography/biography_audio_part/001_001_001.mp3" 

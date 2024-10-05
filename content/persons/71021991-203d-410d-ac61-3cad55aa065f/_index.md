@@ -7,7 +7,12 @@ groups = ['fa5774a6-5cb1-40ef-abb5-004f4e7152e2', 'f1066853-3870-4176-b02c-bc490
 +++
 This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/71021991-203d-410d-ac61-3cad55aa065f/_index.md
 
-<div class="h1_1_right">Heejin Cho</div><br>
+<div class="h1_1_right">Heejin Cho</div>{{< get_image "persons/71021991-203d-410d-ac61-3cad55aa065f/photo/profile.png" >}}
+<br>
+{{< audio
+    path="persons/71021991-203d-410d-ac61-3cad55aa065f/biography/biography_audio_part/001_001_001.mp3" 
+    caption="None"
+>}}
 <br>
 <div class="h2">Persona</div><div class="plain">Heejin Cho, a 28-year-old fashion stylist from Seoul, South Korea, is known for her extraordinary creativity, confidence, and outgoing personality. Having a rich background in styling and fashion, she thrives on innovative designs that stand out in the competitive fashion industry. With a tendency towards impulsivity and perfectionism, she aims to style for top celebrities and fashion magazines. Heejin is proficient in social media marketing, photo editing, and time management, although she seeks to improve her public speaking skills and financial planning. Her Buddhist faith helps her balance her ambitious nature with spiritual calmness, aiming to excel while staying grounded.</div><br>
 <div class="h2">Early Life</div><div class="plain">Heejin's early memories are deeply rooted in the vibrant, creative atmosphere of her childhood in Busan. Her grandmother, a seamstress, played a pivotal role by inspiring her with patterns and fashion from a young age. This nurturing environment cultivated her creative instincts, as seen in early milestones like winning a school art contest with her outfit sketches when she was just seven years old. Her passion for fashion was further ignited by attending family fashion shows, where she was captivated by runway magic. Moving to Seoul at 14 marked a turning point, instilling a mix of excitement and trepidation, while winning a school fashion design competition in high school reaffirmed her determination to pursue a fashion career.</div><br>

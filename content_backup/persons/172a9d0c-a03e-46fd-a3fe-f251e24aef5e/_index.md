@@ -7,7 +7,7 @@ groups = ['db97cc8b-2af6-44eb-883b-d300d2b82336', '01c2a365-7d29-480e-93b5-76971
 +++
 This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/172a9d0c-a03e-46fd-a3fe-f251e24aef5e/_index.md
 
-<div class="h1_right">Isabella Ruiz</div>{{< get_image "persons/172a9d0c-a03e-46fd-a3fe-f251e24aef5e/photo/profile.png" >}}
+<div class="h1_1_right">Isabella Ruiz</div>{{< get_image "persons/172a9d0c-a03e-46fd-a3fe-f251e24aef5e/photo/profile.png" >}}
 <br>
 {{< audio
     path="persons/172a9d0c-a03e-46fd-a3fe-f251e24aef5e/biography/biography_audio_part/001_001_001.mp3" 

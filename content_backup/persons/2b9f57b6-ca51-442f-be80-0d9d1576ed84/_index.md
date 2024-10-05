@@ -7,7 +7,7 @@ groups = ['f1066853-3870-4176-b02c-bc49064d084f']
 +++
 This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/2b9f57b6-ca51-442f-be80-0d9d1576ed84/_index.md
 
-<div class="h1_right">Chloe Lee</div>{{< get_image "persons/2b9f57b6-ca51-442f-be80-0d9d1576ed84/photo/profile.png" >}}
+<div class="h1_1_right">Chloe Lee</div>{{< get_image "persons/2b9f57b6-ca51-442f-be80-0d9d1576ed84/photo/profile.png" >}}
 <br>
 {{< audio
     path="persons/2b9f57b6-ca51-442f-be80-0d9d1576ed84/biography/biography_audio_part/001_001_001.mp3" 

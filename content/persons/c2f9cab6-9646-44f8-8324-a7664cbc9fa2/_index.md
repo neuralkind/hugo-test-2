@@ -7,7 +7,12 @@ groups = ['801d333c-cef4-4344-bd9c-ebab3b60a545', 'f1066853-3870-4176-b02c-bc490
 +++
 This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/c2f9cab6-9646-44f8-8324-a7664cbc9fa2/_index.md
 
-<div class="h1_1_right">Li Wei</div><br>
+<div class="h1_1_right">Li Wei</div>{{< get_image "persons/c2f9cab6-9646-44f8-8324-a7664cbc9fa2/photo/profile.png" >}}
+<br>
+{{< audio
+    path="persons/c2f9cab6-9646-44f8-8324-a7664cbc9fa2/biography/biography_audio_part/001_001_001.mp3" 
+    caption="None"
+>}}
 <br>
 <div class="h2">Persona</div><div class="plain">Li Wei, a 31-year-old Chinese business consultant residing in Seoul, is known for his disciplined and pragmatic nature. Born in Shanghai, Li has cultivated a strong career in bridging China-South Korea business relations, drawing from his multilingual skills in English, Mandarin, and Korean. With expertise in negotiation and strategic thinking, he excels despite struggles with spontaneity and has an overarching fear of losing his competitive edge. Raised in an academic household, Li pursued rigorous education, achieving a Master's in Business Administration from Tsinghua University. A sharp dresser, he balances personal passions, like Tai Chi and chess, with a professional network of international business figures.</div><br>
 <div class="h2">Early Life</div><div class="plain">From an early age, Li Wei's life was marked by academic excellence and familial warmth. Among his earliest memories is a tranquil joy experienced during countryside trips with his family, which set the stage for his innate curiosity. As a toddler, he engaged in chess with his brother, discovering the seeds of strategic thinking. His formative years included milestones such as winning school competitions, participating in debates, and a visit to Seoul that eventually defined his career path. Achievements at secondary school and early exposure to business journals shaped his ambitions, while the retirement of his father instilled a deep respect for legacy. Acceptance at Tsinghua University marked a crucial turning point, cementing his path towards a career in business.</div><br>
