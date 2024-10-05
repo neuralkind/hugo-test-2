@@ -4,6 +4,20 @@
     color: red;
 }
 
+.h1_1 {
+    font-family: 'Roboto', sans-serif, italic;
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    color: black;
+}
+
+.plain {
+    font-family: 'Lato', sans-serif;
+    font-size: clamp(1rem, 2.5vw, 1.5rem); /* Adjust based on layout and content area */
+    line-height: 1.6; /* Ensure comfortable readability */
+    color: black;
+}
+
+
 .lato-30-red {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
