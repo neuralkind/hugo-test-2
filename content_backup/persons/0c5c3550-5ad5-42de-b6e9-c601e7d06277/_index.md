@@ -1,0 +1,15 @@
++++
+title = "Mi-young Song"
+person_id = "0c5c3550-5ad5-42de-b6e9-c601e7d06277"
+draft = false
+society = "seoul_soulmate-2024-10-04"
+groups = ['801d333c-cef4-4344-bd9c-ebab3b60a545']
++++
+This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/0c5c3550-5ad5-42de-b6e9-c601e7d06277/_index.md
+
+Mi-young Song is a dynamic travel vlogger and influencer known for her adventurous spirit and vibrant persona. Driven by a balance of optimism and curiosity, she thrives on exploring new cultures and cuisines, sharing her journeys with a global audience. Although she's spontaneous and occasionally swayed by appearances, her authentic touch keeps her content genuine. Mi-young’s professional journey is marked by both talent and skill in social media marketing, travel planning, and public speaking. Despite challenges like financial management, she capitalizes on her artistic skills in photography and videography. Her ultimate goal is to gain global recognition as a top travel influencer while preserving her authenticity. With an energetic and optimistic nature, Mi-young is spurred by a supportive background and robust professional network.
+
+Mi-young Song's childhood was rich with moments that laid the foundation for her current career path. One of her earliest memories was the magical awe she felt at seeing holiday lights, foreshadowing her future fascination with visual capture. At age four, she took her first family beach photo, elated and proud, showcasing a budding interest in photography. As Mi-young grew, she developed a flair for public speaking and an adventurous streak, winning an art contest and joining a surf club. A pivotal moment came when her father gifted her a camera at age ten, igniting dreams of creativity. A deeper dive into fashion during high school and her initial foray into the fashion blogging world at age sixteen display her evolution, highlighting a persistent blend of self-discovery and reassurance.
+
+In recent years, Mi-young's adventures have continued to mold her career as an influencer. Her studies in Media and Communications at Seoul National University marked the beginning of her journey, where she began capturing Seoul's diverse culture. Venturing through Thailand and Jeju, Mi-young immersed herself in local gems and inspired her followers with the serenity of island life. A significant opportunity took her to Los Angeles, enhancing her network within the fashion and media worlds. Her passion for culinary exploration led her to Bali, where her content brimmed with food adventures and personal growth. Recently, back in Seoul, she's amalgamating her international experiences into her upcoming travel series, demonstrating an exciting blend of her newfound insights and love for her roots in South Korea.
+
