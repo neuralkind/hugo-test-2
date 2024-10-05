@@ -7,64 +7,64 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/societies/station_1
 <br>
 <hr>
 <br>
-<div class="h1">Sora Nakamura</div><a href="{{< ref "/persons/96b4cf8e-430a-4d0f-8838-be3c2d36b942" >}}" class="h1" title="Sora Nakamura">Sora Nakamura</a>
-<div class="h1">Sora Nakamura</div><div class="plain">Sora Nakamura, a 17-year-old Japanese student at Sta...</div><br>
+<a href="{{< ref "/persons/96b4cf8e-430a-4d0f-8838-be3c2d36b942" >}}" class="h1" title="Sora Nakamura">Sora Nakamura</a>
+<div class="plain">Sora Nakamura, a 17-year-old Japanese studen...</div><br>
 <br>
-<div class="h1">Kaori Tanaka</div><a href="{{< ref "/persons/29ab1d21-312e-4e57-9d12-b140b0af7327" >}}" class="h1" title="Kaori Tanaka">Kaori Tanaka</a>
-<div class="h1">Kaori Tanaka</div><div class="plain">Kaori Tanaka is an innovative 18-year-old Japanese VR sp...</div><br>
+<a href="{{< ref "/persons/29ab1d21-312e-4e57-9d12-b140b0af7327" >}}" class="h1" title="Kaori Tanaka">Kaori Tanaka</a>
+<div class="plain">Kaori Tanaka is an innovative 18-year-old Japane...</div><br>
 <br>
-<div class="h1">Takeshi Moriyama</div><a href="{{< ref "/persons/80705f61-59e2-4417-a5c5-7aa037f0305e" >}}" class="h1" title="Takeshi Moriyama">Takeshi Moriyama</a>
-<div class="h1">Takeshi Moriyama</div><div class="plain">Takeshi Moriyama is a brilliant quantum p...</div><br>
+<a href="{{< ref "/persons/80705f61-59e2-4417-a5c5-7aa037f0305e" >}}" class="h1" title="Takeshi Moriyama">Takeshi Moriyama</a>
+<div class="plain">Takeshi Moriyama is a brilliant quantum programmer with ...</div><br>
 <br>
-<div class="h1">Mika Fujimoto</div><a href="{{< ref "/persons/5b750272-8d7f-4f28-995e-546e9b423a90" >}}" class="h1" title="Mika Fujimoto">Mika Fujimoto</a>
-<div class="h1">Mika Fujimoto</div><div class="plain">Mika Fujimoto, a 17-year-old creative prodigy fro...</div>{{< get_image "persons/5b750272-8d7f-4f28-995e-546e9b423a90/photo/profile.png" >}}
+<a href="{{< ref "/persons/5b750272-8d7f-4f28-995e-546e9b423a90" >}}" class="h1" title="Mika Fujimoto">Mika Fujimoto</a>
+<div class="plain">Mika Fujimoto, a 17-year-old creative prodigy from Tokyo, ...</div>{{< get_image "persons/5b750272-8d7f-4f28-995e-546e9b423a90/photo/profile.png" >}}
 <br>
 <br>
-<div class="h1">Kenji Asano</div><a href="{{< ref "/persons/687e74c5-e2ea-4707-9300-f2f0602880cf" >}}" class="h1" title="Kenji Asano">Kenji Asano</a>
-<div class="h1">Kenji Asano</div><div class="plain">Kenji Asano, an 18-year-old from Tokyo, st...</div><br>
+<a href="{{< ref "/persons/687e74c5-e2ea-4707-9300-f2f0602880cf" >}}" class="h1" title="Kenji Asano">Kenji Asano</a>
+<div class="plain">Kenji Asano, an 18-year-old from Tokyo, stands ...</div><br>
 <br>
-<div class="h1">Aya Kuroda</div><a href="{{< ref "/persons/36dfc72e-e441-48a5-bbcf-fc59027453dd" >}}" class="h1" title="Aya Kuroda">Aya Kuroda</a>
-<div class="h1">Aya Kuroda</div><div class="plain">Aya Kuroda, a 17-year-old tech prodigy from Tokyo, is an...</div><br>
+<a href="{{< ref "/persons/36dfc72e-e441-48a5-bbcf-fc59027453dd" >}}" class="h1" title="Aya Kuroda">Aya Kuroda</a>
+<div class="plain">Aya Kuroda, a 17-year-old tech prodigy from Tokyo, is an em...</div><br>
 <br>
-<div class="h1">Riku Honda</div><a href="{{< ref "/persons/d551fdcb-1077-4526-acfd-351e48617f49" >}}" class="h1" title="Riku Honda">Riku Honda</a>
-<div class="h1">Riku Honda</div><div class="plain">Riku Honda is an avant-garde tech enthusias...</div><br>
+<a href="{{< ref "/persons/d551fdcb-1077-4526-acfd-351e48617f49" >}}" class="h1" title="Riku Honda">Riku Honda</a>
+<div class="plain">Riku Honda is an avant-garde tech enthus...</div><br>
 <br>
-<div class="h1">Emiko Matsuda</div><a href="{{< ref "/persons/0d639976-c93a-4bb0-8dcc-ce0d9fd433b4" >}}" class="h1" title="Emiko Matsuda">Emiko Matsuda</a>
-<div class="h1">Emiko Matsuda</div><div class="plain">Emiko Matsuda is a bold and rebellious AI and rob...</div><br>
+<a href="{{< ref "/persons/0d639976-c93a-4bb0-8dcc-ce0d9fd433b4" >}}" class="h1" title="Emiko Matsuda">Emiko Matsuda</a>
+<div class="plain">Emiko Matsuda is a bold and rebellious AI and robotics stude...</div><br>
 <br>
-<div class="h1">Takashi Ito</div><a href="{{< ref "/persons/6a211c54-35b5-46ce-8e3d-bdb9fe2f6858" >}}" class="h1" title="Takashi Ito">Takashi Ito</a>
-<div class="h1">Takashi Ito</div><div class="plain">Takashi Ito, a brilliant young mind from Tokyo, i...</div><br>
+<a href="{{< ref "/persons/6a211c54-35b5-46ce-8e3d-bdb9fe2f6858" >}}" class="h1" title="Takashi Ito">Takashi Ito</a>
+<div class="plain">Takashi Ito, a brilliant young mind from Tokyo, is r...</div><br>
 <br>
-<div class="h1">Yuki Akiyama</div><a href="{{< ref "/persons/ed0fb9ad-668f-4513-b2aa-6f6d7ed6fb7e" >}}" class="h1" title="Yuki Akiyama">Yuki Akiyama</a>
-<div class="h1">Yuki Akiyama</div><div class="plain">Yuki Akiyama, an 18-year-old tech enthusiast from Tokyo, i...</div><br>
+<a href="{{< ref "/persons/ed0fb9ad-668f-4513-b2aa-6f6d7ed6fb7e" >}}" class="h1" title="Yuki Akiyama">Yuki Akiyama</a>
+<div class="plain">Yuki Akiyama, an 18-year-old tech enthusiast from ...</div><br>
 <br>
-<div class="h1">Hiroshi Nakata</div><a href="{{< ref "/persons/abcf8091-3c87-43af-863e-601cebfc1828" >}}" class="h1" title="Hiroshi Nakata">Hiroshi Nakata</a>
-<div class="h1">Hiroshi Nakata</div><div class="plain">Hiroshi Nakata, aged 18, is an innovative ...</div><br>
+<a href="{{< ref "/persons/abcf8091-3c87-43af-863e-601cebfc1828" >}}" class="h1" title="Hiroshi Nakata">Hiroshi Nakata</a>
+<div class="plain">Hiroshi Nakata, aged 18, is an innovative and empathetic s...</div><br>
 <br>
-<div class="h1">Misaki Takeda</div><a href="{{< ref "/persons/02d15f1c-0b3f-479c-982b-4bbff1d0c882" >}}" class="h1" title="Misaki Takeda">Misaki Takeda</a>
-<div class="h1">Misaki Takeda</div><div class="plain">Misaki Takeda is a visionary VR developer from Tokyo. He...</div><br>
+<a href="{{< ref "/persons/02d15f1c-0b3f-479c-982b-4bbff1d0c882" >}}" class="h1" title="Misaki Takeda">Misaki Takeda</a>
+<div class="plain">Misaki Takeda is a visionary VR developer ...</div><br>
 <br>
-<div class="h1">Daichi Shinozaki</div><a href="{{< ref "/persons/b343804c-5f04-4a63-badd-f30b19cb46b2" >}}" class="h1" title="Daichi Shinozaki">Daichi Shinozaki</a>
-<div class="h1">Daichi Shinozaki</div><div class="plain">Daichi Shinozaki, known as 'The Digital Explorer,' is a cur...</div><br>
+<a href="{{< ref "/persons/b343804c-5f04-4a63-badd-f30b19cb46b2" >}}" class="h1" title="Daichi Shinozaki">Daichi Shinozaki</a>
+<div class="plain">Daichi Shinozaki, known as 'The Digital Explore...</div><br>
 <br>
-<div class="h1">Rina Kobayashi</div><a href="{{< ref "/persons/32e9b4e5-35fb-43ef-9597-098c1381eb87" >}}" class="h1" title="Rina Kobayashi">Rina Kobayashi</a>
-<div class="h1">Rina Kobayashi</div><div class="plain">Rina Kobayashi is a dedicated 18-year-old Japanes...</div><br>
+<a href="{{< ref "/persons/32e9b4e5-35fb-43ef-9597-098c1381eb87" >}}" class="h1" title="Rina Kobayashi">Rina Kobayashi</a>
+<div class="plain">Rina Kobayashi is a dedicated 18-year-old Japanes...</div><br>
 <br>
-<div class="h1">Shun Ogawa</div><a href="{{< ref "/persons/d0af368b-f1c7-496c-b8ba-49c9752ccde0" >}}" class="h1" title="Shun Ogawa">Shun Ogawa</a>
-<div class="h1">Shun Ogawa</div><div class="plain">Shun Ogawa, a 18-year-old Japanese student, cur...</div><br>
+<a href="{{< ref "/persons/d0af368b-f1c7-496c-b8ba-49c9752ccde0" >}}" class="h1" title="Shun Ogawa">Shun Ogawa</a>
+<div class="plain">Shun Ogawa, a 18-year-old Japanese student, ...</div><br>
 <br>
-<div class="h1">Kazuki Murakami</div><a href="{{< ref "/persons/8070259a-b0a2-408f-b217-5879737a5b1b" >}}" class="h1" title="Kazuki Murakami">Kazuki Murakami</a>
-<div class="h1">Kazuki Murakami</div><div class="plain">Kazuki Murakami is a masterful storyteller, ren...</div><br>
+<a href="{{< ref "/persons/8070259a-b0a2-408f-b217-5879737a5b1b" >}}" class="h1" title="Kazuki Murakami">Kazuki Murakami</a>
+<div class="plain">Kazuki Murakami is a masterful storytell...</div><br>
 <br>
-<div class="h1">Nozomi Saito</div><a href="{{< ref "/persons/32598c9c-2952-49f0-827d-9a6d65349a90" >}}" class="h1" title="Nozomi Saito">Nozomi Saito</a>
-<div class="h1">Nozomi Saito</div><div class="plain">Nozomi Saito, a Japanese national born in To...</div><br>
+<a href="{{< ref "/persons/32598c9c-2952-49f0-827d-9a6d65349a90" >}}" class="h1" title="Nozomi Saito">Nozomi Saito</a>
+<div class="plain">Nozomi Saito, a Japanese national born in Tokyo, is...</div><br>
 <br>
-<div class="h1">Junpei Nakamura</div><a href="{{< ref "/persons/ef4df2d8-8bbc-4b64-80b1-6950822b57fc" >}}" class="h1" title="Junpei Nakamura">Junpei Nakamura</a>
-<div class="h1">Junpei Nakamura</div><div class="plain">Junpei Nakamura, a highly innovative and detail...</div><br>
+<a href="{{< ref "/persons/ef4df2d8-8bbc-4b64-80b1-6950822b57fc" >}}" class="h1" title="Junpei Nakamura">Junpei Nakamura</a>
+<div class="plain">Junpei Nakamura, a highly innovative and detail-oriented ind...</div><br>
 <br>
-<div class="h1">Akiko Sugiyama</div><a href="{{< ref "/persons/6318cbbf-ac31-4ec3-bb87-6717205ba417" >}}" class="h1" title="Akiko Sugiyama">Akiko Sugiyama</a>
-<div class="h1">Akiko Sugiyama</div><div class="plain">Akiko Sugiyama, a Japanese innovator in Virtual Reality (VR)...</div><br>
+<a href="{{< ref "/persons/6318cbbf-ac31-4ec3-bb87-6717205ba417" >}}" class="h1" title="Akiko Sugiyama">Akiko Sugiyama</a>
+<div class="plain">Akiko Sugiyama, a Japanese innovator in Virtual...</div><br>
 <br>
-<div class="h1">Haruto Sakamoto</div><a href="{{< ref "/persons/306033e5-f2d4-43a0-a333-399a874f2270" >}}" class="h1" title="Haruto Sakamoto">Haruto Sakamoto</a>
-<div class="h1">Haruto Sakamoto</div><div class="plain">Haruto Sakamoto is a highly introspective and analytical i...</div><br>
+<a href="{{< ref "/persons/306033e5-f2d4-43a0-a333-399a874f2270" >}}" class="h1" title="Haruto Sakamoto">Haruto Sakamoto</a>
+<div class="plain">Haruto Sakamoto is a highly introspective...</div><br>
 <br>

@@ -1,14 +1,42 @@
 .h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: clamp(1.5rem, 4vw, 3rem);
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
     color: red;
 }
 
 .h1_1 {
-    font-family: 'Roboto', sans-serif, italic;
-    font-size: clamp(1.5rem, 4vw, 3rem);
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
     color: black;
 }
+
+.h1_1_right {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    color: black;
+    text-align: right;    
+}
+
+
+.h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: clamp(1.275rem, 3.4vw, 2.55rem);
+    text-decoration: underline;
+    color: black;
+}
+
+.h2_right {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: clamp(1.275rem, 3.4vw, 2.55rem);
+    text-decoration: underline;
+    color: black;
+    text-align: right;
+}
+
 
 .plain {
     font-family: 'Lato', sans-serif;
