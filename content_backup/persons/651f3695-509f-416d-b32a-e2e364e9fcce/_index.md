@@ -8,6 +8,10 @@ groups = ['2bb7723a-284b-4246-a74a-09df5eacafd5']
 This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/651f3695-509f-416d-b32a-e2e364e9fcce/_index.md
 
 <div class="h1_1_right">Felix Hwang</div><br>
+{{< audio
+    path="persons/651f3695-509f-416d-b32a-e2e364e9fcce/biography/biography_audio_part/001_001_001.mp3" 
+    caption="None"
+>}}
 <br>
 <div class="h2">Persona</div><div class="plain">Felix Hwang is an engaging, playful, and highly intuitive 17-year-old with a knack for light manipulation magic. Often found stargazing or performing magic pranks, he thrives in environments enriched by camaraderie and laughter. His self-declared mission is to bridge the magical and non-magical worlds, aspiring to become a well-respected illusionist. Known for his charismatic personality, he is optimistic and enjoys creating illusions that captivate and inspire. Though mischievous and sometimes impulsive, Felix is committed to growing both his magical abilities and his understanding of responsibility, particularly after mishaps during his early magical journey.</div><br>
 <div class="h2">Early Life</div><div class="plain">Growing up in Ignis Town, Felix's happiest moments revolve around childhood explorations of magic and light. His early memories are painted with episodes of wonder, like when he first probed the night sky's dazzling stars with his best friend, Leo, or the joy of a toy wand during a birthday celebration. Early on, he exhibited a penchant for mischief, delighting in pranking neighbors and classmates with clever tricks. However, his life significantly shifted at 12 during a city fair where his moment of accidental magic awakened a new reality. Relocating to Mundus City for better schooling before joining the illustrious Arcanum Institute marked the beginning of a true transformation in his identity and abilities.</div><br>

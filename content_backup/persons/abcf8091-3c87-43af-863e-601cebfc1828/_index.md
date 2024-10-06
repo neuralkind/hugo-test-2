@@ -7,7 +7,12 @@ groups = ['b3d865c7-e1ce-44ed-95bb-2c4bbbd253d6']
 +++
 This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/abcf8091-3c87-43af-863e-601cebfc1828/_index.md
 
-<div class="h1_1_right">Hiroshi Nakata</div><br>
+<div class="h1_1_right">Hiroshi Nakata</div>{{< get_image "persons/abcf8091-3c87-43af-863e-601cebfc1828/photo/profile.png" >}}
+<br>
+{{< audio
+    path="persons/abcf8091-3c87-43af-863e-601cebfc1828/biography/biography_audio_part/001_001_001.mp3" 
+    caption="None"
+>}}
 <br>
 <div class="h2">Persona</div><div class="plain">Hiroshi Nakata, aged 18, is an innovative and empathetic student at Station-11, Tokyo, where he focuses on cutting-edge virtual reality designs. Nicknamed "The Sensation Crafter," Hiroshi excels in advanced simulations, intending to enhance sensory experiences within the Horizon project. With an athletic build complemented by an ever-present friendly smile, he has a penchant for experimenting with new technologies. Driven to graduate top of his class, Hiroshi possesses a balanced personality, with high levels of openness and agreeableness, but sometimes struggles with overconfidence. Despite being predisposed to stress, Hiroshi copes by engaging in nature and meditation, reflecting his Shinto beliefs. He holds deep respect for his mentor, Professor Hana Kuroda.</div><br>
 <div class="h2">Early Life</div><div class="plain">Hiroshi Nakata's early memories reveal a deep connection to technology fostered by his tech-savvy parents. From witnessing the lights of Tokyo as a baby, Hiroshi developed an enduring curiosity about the digital world. By age four, he was assembling gadgets in his father's lab, displaying exceptional talent with technology. His formative years brimmed with moments of both triumphs, like showcasing his DIY project at preschool, and challenges, such as coding frustration. Inspirations bloomed in experiences like attending a tech conference with his mother, while technology projects at school ignited competitions. A significant encounter was when Professor Hana Kuroda recognized his potential, solidifying his path in virtual reality design.</div><br>
