@@ -9,7 +9,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/3cd57ef0-9d
 
 <div class="h1_1_right">Kira Li</div><br>
 {{< audio
-    path="persons/3cd57ef0-9d54-4d32-95ef-fde9b8dd80fd/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/3cd57ef0-9d54-4d32-95ef-fde9b8dd80fd/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

@@ -10,7 +10,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/867d0ed2-88
 <div class="h1_1_right">Amara Okafor</div>{{< get_image "persons/867d0ed2-8832-443c-a876-eb73d18ec9d8/photo/profile.png" >}}
 <br>
 {{< audio
-    path="persons/867d0ed2-8832-443c-a876-eb73d18ec9d8/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/867d0ed2-8832-443c-a876-eb73d18ec9d8/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

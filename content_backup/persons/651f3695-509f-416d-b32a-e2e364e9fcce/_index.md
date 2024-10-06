@@ -9,7 +9,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/651f3695-50
 
 <div class="h1_1_right">Felix Hwang</div><br>
 {{< audio
-    path="persons/651f3695-509f-416d-b32a-e2e364e9fcce/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/651f3695-509f-416d-b32a-e2e364e9fcce/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

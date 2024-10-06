@@ -10,7 +10,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/be43ca8b-9f
 <div class="h1_1_right">Victor Chan</div>{{< get_image "persons/be43ca8b-9f7b-4476-9950-b8ac64824415/photo/profile.png" >}}
 <br>
 {{< audio
-    path="persons/be43ca8b-9f7b-4476-9950-b8ac64824415/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/be43ca8b-9f7b-4476-9950-b8ac64824415/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

@@ -10,7 +10,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/71021991-20
 <div class="h1_1_right">Heejin Cho</div>{{< get_image "persons/71021991-203d-410d-ac61-3cad55aa065f/photo/profile.png" >}}
 <br>
 {{< audio
-    path="persons/71021991-203d-410d-ac61-3cad55aa065f/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/71021991-203d-410d-ac61-3cad55aa065f/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

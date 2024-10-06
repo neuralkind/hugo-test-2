@@ -9,7 +9,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/e0a8ef37-d9
 
 <div class="h1_1_right">Hana Kim</div><br>
 {{< audio
-    path="persons/e0a8ef37-d926-4170-9554-6b8f5619a1b8/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/e0a8ef37-d926-4170-9554-6b8f5619a1b8/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

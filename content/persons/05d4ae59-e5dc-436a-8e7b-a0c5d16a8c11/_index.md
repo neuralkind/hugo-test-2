@@ -10,7 +10,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/05d4ae59-e5
 <div class="h1_1_right">Naomi Jacobs</div>{{< get_image "persons/05d4ae59-e5dc-436a-8e7b-a0c5d16a8c11/photo/profile.png" >}}
 <br>
 {{< audio
-    path="persons/05d4ae59-e5dc-436a-8e7b-a0c5d16a8c11/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/05d4ae59-e5dc-436a-8e7b-a0c5d16a8c11/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

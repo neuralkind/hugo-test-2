@@ -10,7 +10,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/5537afd7-f7
 <div class="h1_1_right">Julian Rosenfeld</div>{{< get_image "persons/5537afd7-f7ea-4af4-9902-85c9f402b6a2/photo/profile.png" >}}
 <br>
 {{< audio
-    path="persons/5537afd7-f7ea-4af4-9902-85c9f402b6a2/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/5537afd7-f7ea-4af4-9902-85c9f402b6a2/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

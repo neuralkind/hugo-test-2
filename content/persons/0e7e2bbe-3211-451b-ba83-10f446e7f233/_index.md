@@ -10,7 +10,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/0e7e2bbe-32
 <div class="h1_1_right">Hae Shin</div>{{< get_image "persons/0e7e2bbe-3211-451b-ba83-10f446e7f233/photo/profile.png" >}}
 <br>
 {{< audio
-    path="persons/0e7e2bbe-3211-451b-ba83-10f446e7f233/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/0e7e2bbe-3211-451b-ba83-10f446e7f233/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

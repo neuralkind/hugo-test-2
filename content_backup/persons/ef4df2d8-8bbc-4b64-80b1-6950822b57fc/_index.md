@@ -10,7 +10,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/ef4df2d8-8b
 <div class="h1_1_right">Junpei Nakamura</div>{{< get_image "persons/ef4df2d8-8bbc-4b64-80b1-6950822b57fc/photo/profile.png" >}}
 <br>
 {{< audio
-    path="persons/ef4df2d8-8bbc-4b64-80b1-6950822b57fc/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/ef4df2d8-8bbc-4b64-80b1-6950822b57fc/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

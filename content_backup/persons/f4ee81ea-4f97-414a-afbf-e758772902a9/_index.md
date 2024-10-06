@@ -10,7 +10,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/f4ee81ea-4f
 <div class="h1_1_right">Leila Thompson</div>{{< get_image "persons/f4ee81ea-4f97-414a-afbf-e758772902a9/photo/profile.png" >}}
 <br>
 {{< audio
-    path="persons/f4ee81ea-4f97-414a-afbf-e758772902a9/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/f4ee81ea-4f97-414a-afbf-e758772902a9/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

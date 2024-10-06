@@ -10,7 +10,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/d551fdcb-10
 <div class="h1_1_right">Riku Honda</div>{{< get_image "persons/d551fdcb-1077-4526-acfd-351e48617f49/photo/profile.png" >}}
 <br>
 {{< audio
-    path="persons/d551fdcb-1077-4526-acfd-351e48617f49/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/d551fdcb-1077-4526-acfd-351e48617f49/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

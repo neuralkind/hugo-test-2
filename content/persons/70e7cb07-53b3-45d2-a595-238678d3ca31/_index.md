@@ -10,7 +10,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/70e7cb07-53
 <div class="h1_1_right">Ga-young Im</div>{{< get_image "persons/70e7cb07-53b3-45d2-a595-238678d3ca31/photo/profile.png" >}}
 <br>
 {{< audio
-    path="persons/70e7cb07-53b3-45d2-a595-238678d3ca31/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/70e7cb07-53b3-45d2-a595-238678d3ca31/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

@@ -10,7 +10,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/96b4cf8e-43
 <div class="h1_1_right">Sora Nakamura</div>{{< get_image "persons/96b4cf8e-430a-4d0f-8838-be3c2d36b942/photo/profile.png" >}}
 <br>
 {{< audio
-    path="persons/96b4cf8e-430a-4d0f-8838-be3c2d36b942/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/96b4cf8e-430a-4d0f-8838-be3c2d36b942/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

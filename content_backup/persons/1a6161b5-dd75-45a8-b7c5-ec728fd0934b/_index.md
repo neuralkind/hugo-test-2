@@ -9,7 +9,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/1a6161b5-dd
 
 <div class="h1_1_right">Max Delgado</div><br>
 {{< audio
-    path="persons/1a6161b5-dd75-45a8-b7c5-ec728fd0934b/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/1a6161b5-dd75-45a8-b7c5-ec728fd0934b/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

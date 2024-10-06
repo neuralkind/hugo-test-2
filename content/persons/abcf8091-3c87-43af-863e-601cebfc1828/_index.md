@@ -10,7 +10,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/abcf8091-3c
 <div class="h1_1_right">Hiroshi Nakata</div>{{< get_image "persons/abcf8091-3c87-43af-863e-601cebfc1828/photo/profile.png" >}}
 <br>
 {{< audio
-    path="persons/abcf8091-3c87-43af-863e-601cebfc1828/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/abcf8091-3c87-43af-863e-601cebfc1828/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

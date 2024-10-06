@@ -10,7 +10,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/26ed9539-e1
 <div class="h1_1_right">Mei-Lin Wu</div>{{< get_image "persons/26ed9539-e1e9-4b2f-8b19-3d2ba0f03caf/photo/profile.png" >}}
 <br>
 {{< audio
-    path="persons/26ed9539-e1e9-4b2f-8b19-3d2ba0f03caf/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/26ed9539-e1e9-4b2f-8b19-3d2ba0f03caf/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

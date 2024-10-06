@@ -9,7 +9,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/110d14e5-ac
 
 <div class="h1_1_right">Mia Zhang</div><br>
 {{< audio
-    path="persons/110d14e5-ac87-4e3d-9d40-b0280c33e892/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/110d14e5-ac87-4e3d-9d40-b0280c33e892/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

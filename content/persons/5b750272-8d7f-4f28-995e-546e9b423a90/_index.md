@@ -10,7 +10,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/5b750272-8d
 <div class="h1_1_right">Mika Fujimoto</div>{{< get_image "persons/5b750272-8d7f-4f28-995e-546e9b423a90/photo/profile.png" >}}
 <br>
 {{< audio
-    path="persons/5b750272-8d7f-4f28-995e-546e9b423a90/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/5b750272-8d7f-4f28-995e-546e9b423a90/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

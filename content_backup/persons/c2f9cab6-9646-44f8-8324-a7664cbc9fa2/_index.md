@@ -10,7 +10,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/c2f9cab6-96
 <div class="h1_1_right">Li Wei</div>{{< get_image "persons/c2f9cab6-9646-44f8-8324-a7664cbc9fa2/photo/profile.png" >}}
 <br>
 {{< audio
-    path="persons/c2f9cab6-9646-44f8-8324-a7664cbc9fa2/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/c2f9cab6-9646-44f8-8324-a7664cbc9fa2/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

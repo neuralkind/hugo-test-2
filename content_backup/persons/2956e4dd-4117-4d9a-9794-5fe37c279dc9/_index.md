@@ -9,7 +9,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/2956e4dd-41
 
 <div class="h1_1_right">Zoe Patel</div><br>
 {{< audio
-    path="persons/2956e4dd-4117-4d9a-9794-5fe37c279dc9/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/2956e4dd-4117-4d9a-9794-5fe37c279dc9/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

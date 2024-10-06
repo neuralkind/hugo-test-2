@@ -9,7 +9,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/7088ec8d-73
 
 <div class="h1_1_right">Olivia Martin</div><br>
 {{< audio
-    path="persons/7088ec8d-7377-473e-be5d-59c09ad8808a/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/7088ec8d-7377-473e-be5d-59c09ad8808a/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

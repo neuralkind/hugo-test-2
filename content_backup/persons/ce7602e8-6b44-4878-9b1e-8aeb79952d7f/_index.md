@@ -10,7 +10,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/ce7602e8-6b
 <div class="h1_1_right">Ella Rodriguez</div>{{< get_image "persons/ce7602e8-6b44-4878-9b1e-8aeb79952d7f/photo/profile.png" >}}
 <br>
 {{< audio
-    path="persons/ce7602e8-6b44-4878-9b1e-8aeb79952d7f/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/ce7602e8-6b44-4878-9b1e-8aeb79952d7f/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

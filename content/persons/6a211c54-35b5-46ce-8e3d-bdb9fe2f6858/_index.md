@@ -10,7 +10,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/6a211c54-35
 <div class="h1_1_right">Takashi Ito</div>{{< get_image "persons/6a211c54-35b5-46ce-8e3d-bdb9fe2f6858/photo/profile.png" >}}
 <br>
 {{< audio
-    path="persons/6a211c54-35b5-46ce-8e3d-bdb9fe2f6858/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/6a211c54-35b5-46ce-8e3d-bdb9fe2f6858/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

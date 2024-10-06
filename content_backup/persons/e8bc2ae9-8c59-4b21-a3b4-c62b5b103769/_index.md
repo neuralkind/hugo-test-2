@@ -10,7 +10,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/e8bc2ae9-8c
 <div class="h1_1_right">Luca Romano</div>{{< get_image "persons/e8bc2ae9-8c59-4b21-a3b4-c62b5b103769/photo/profile.png" >}}
 <br>
 {{< audio
-    path="persons/e8bc2ae9-8c59-4b21-a3b4-c62b5b103769/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/e8bc2ae9-8c59-4b21-a3b4-c62b5b103769/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

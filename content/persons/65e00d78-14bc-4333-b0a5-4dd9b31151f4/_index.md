@@ -10,7 +10,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/65e00d78-14
 <div class="h1_1_right">Connor O’Sullivan</div>{{< get_image "persons/65e00d78-14bc-4333-b0a5-4dd9b31151f4/photo/profile.png" >}}
 <br>
 {{< audio
-    path="persons/65e00d78-14bc-4333-b0a5-4dd9b31151f4/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/65e00d78-14bc-4333-b0a5-4dd9b31151f4/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>

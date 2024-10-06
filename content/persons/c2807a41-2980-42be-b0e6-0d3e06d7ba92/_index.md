@@ -9,7 +9,7 @@ This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/c2807a41-29
 
 <div class="h1_1_right">Julian Nguyen</div><br>
 {{< audio
-    path="persons/c2807a41-2980-42be-b0e6-0d3e06d7ba92/biography/biography_audio_part/001_001_001.mp3" 
+    path="persons/c2807a41-2980-42be-b0e6-0d3e06d7ba92/biography/biography_audio/001.mp3" 
     caption="None"
 >}}
 <br>
