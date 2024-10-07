@@ -105,10 +105,10 @@
 
         if (society === '' || personSociety === society) {
           console.log('DEBUG: Showing person option:', option.value);
-          option.style.display = 'block';
+          option.hidden = false; // Show the option
         } else {
           console.log('DEBUG: Hiding person option:', option.value);
-          option.style.display = 'none';
+          option.hidden = true; // Hide the option
 
           // If the currently selected person is not in the selected society, reset selection
           if (option.value === personSelect.value) {
