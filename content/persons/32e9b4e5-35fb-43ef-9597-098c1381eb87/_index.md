@@ -28,6 +28,10 @@ This is content/persons/32e9b4e5-35fb-43ef-9597-098c1381eb87/_index.md
     }
 })();
 </script><div class="h1_1_right">Rina Kobayashi</div><br>
+{{< audio
+    path="persons/32e9b4e5-35fb-43ef-9597-098c1381eb87/biography/biography_audio/001.mp3" 
+    caption="None"
+>}}
 <br>
 <div class="h2">Persona</div><div class="plain">Rina Kobayashi is a dedicated 18-year-old Japanese female, characterized by an inventive and strategic mind, underscoring her prowess in cybersecurity. Born in Tokyo, she embodies a blend of an athletic lifestyle and an intellectual upbringing, fostering a fascination with technology from a young age. As a student at Station-11, she excels in network security and AI ethics. Known for her tenacity and vigilance, Rina stands as the guardian of "The Horizon," effective in warding off virtual threats. Despite her aloof demeanor, Rina's distrustful nature ensures watertight defenses in her work. Her nickname, "The Firewall," attests to her formidable reputation. Unwavering in her resolve to secure virtual realms, Rina faces growing challenges head-on, driven by a blend of caution and innovation.</div><br>
 <div class="h2">Early Life</div><div class="plain">Rina's childhood was bathed in the glow of screens and the hum of processors, sparking her love affair with technology. At an early age, her father nudged her into the digital world, handing her a computer that ignited curiosity and wonder. Memories flood back of proud accomplishments, from constructing virtual houses in games to excelling in school competitions. Young Rina basked in the excitement of tech conventions, shadowing her parents, and even penning a poem about technology that secured her first taste of winning. These formative experiences, hallmarked by self-discovery and ingenuity, laid a powerful foundation for Rina's pursuit of cybersecurity. With influential figures and ever-deepening interests molding her journey, Rina matured into a disciplined young adult passionate about coding and virtual environments.</div><br>

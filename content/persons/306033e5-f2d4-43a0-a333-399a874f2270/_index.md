@@ -28,6 +28,10 @@ This is content/persons/306033e5-f2d4-43a0-a333-399a874f2270/_index.md
     }
 })();
 </script><div class="h1_1_right">Haruto Sakamoto</div><br>
+{{< audio
+    path="persons/306033e5-f2d4-43a0-a333-399a874f2270/biography/biography_audio/001.mp3" 
+    caption="None"
+>}}
 <br>
 <div class="h2">Persona</div><div class="plain">Haruto Sakamoto is a highly introspective and analytical individual, known for his perceptive and empathetic nature. With a deep interest in mystery novels, strategy games, and programming, his personality is underscored by high openness and conscientiousness. Haruto thrives in environments that challenge and stimulate intellectually. rooted in Shinto Buddhism, he balances a distinctly cautious approach towards technology with a deep fascination for unraveling complex problems. He is often described as reserved yet insightful, earning the nickname "The Mind Reader." Despite his preference for solitude, he maintains close friendships with those who appreciate his intellect. Haruto's presence is marked by his lean build and calm demeanor.</div><br>
 <div class="h2">Early Life</div><div class="plain">Haruto's early memories reflect a mix of awe-inspired curiosity and intellectual triumphs. One of his earliest memories involves gazing at the stars from his home rooftop, feeling the vastness of the universe at only a few months old. By the age of three, he was delighting in solving complex jigsaw puzzles with his father. A pivotal moment occurred when he received a mystery novel for his fifth birthday, which ignited a lifelong passion for unraveling enigmas. His academic prowess was evident from a young age, winning a school science fair at seven. However, the betrayal of a friend at eight instilled a sense of skepticism, shaping his interpersonal relationships. These formative years set the stage for his interest in robotics, programming, and the blurred lines between the real and digital worlds.</div><br>

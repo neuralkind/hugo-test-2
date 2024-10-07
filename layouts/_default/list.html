@@ -5,7 +5,8 @@
 
   <!-- Content Container -->
   <div id="content-list">
-    {{ range .Pages }}
+    {{ $sortedPages := sort .Pages "Title" }} <!-- Sort pages by Title -->
+    {{ range $sortedPages }}
       {{ $urlizedPersons := apply .Params.persons "urlize" "." }}
       <div class="content-item" data-persons="{{ delimit $urlizedPersons " " }}">
         <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>

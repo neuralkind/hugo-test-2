@@ -27,7 +27,8 @@ This is content/persons/ddd336a1-e3a2-43dc-a71f-92d3d703712e/_index.md
     personSelect.value = personId;
     }
 })();
-</script><div class="h1_1_right">Ravi Mehta</div><br>
+</script><div class="h1_1_right">Ravi Mehta</div>{{< get_image "persons/ddd336a1-e3a2-43dc-a71f-92d3d703712e/photo/profile.png" >}}
+<br>
 {{< audio
     path="persons/ddd336a1-e3a2-43dc-a71f-92d3d703712e/biography/biography_audio/001.mp3" 
     caption="None"

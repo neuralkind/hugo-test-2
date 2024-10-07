@@ -27,7 +27,8 @@ This is content/persons/c556d6ab-315f-4d06-91f0-99b8a19936a2/_index.md
     personSelect.value = personId;
     }
 })();
-</script><div class="h1_1_right">Maya Lopez</div><br>
+</script><div class="h1_1_right">Maya Lopez</div>{{< get_image "persons/c556d6ab-315f-4d06-91f0-99b8a19936a2/photo/profile.png" >}}
+<br>
 {{< audio
     path="persons/c556d6ab-315f-4d06-91f0-99b8a19936a2/biography/biography_audio/001.mp3" 
     caption="None"

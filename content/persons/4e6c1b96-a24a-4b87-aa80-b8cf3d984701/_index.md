@@ -27,7 +27,12 @@ This is content/persons/4e6c1b96-a24a-4b87-aa80-b8cf3d984701/_index.md
     personSelect.value = personId;
     }
 })();
-</script><div class="h1_1_right">Yuna Park</div><br>
+</script><div class="h1_1_right">Yuna Park</div>{{< get_image "persons/4e6c1b96-a24a-4b87-aa80-b8cf3d984701/photo/profile.png" >}}
+<br>
+{{< audio
+    path="persons/4e6c1b96-a24a-4b87-aa80-b8cf3d984701/biography/biography_audio/001.mp3" 
+    caption="None"
+>}}
 <br>
 <div class="h2">Persona</div><div class="plain">Yuna Park, a 26-year-old Korean dancer and choreographer from Seoul, is recognized for her vibrant personality and athletic build. With a deep passion for dance, especially K-pop styles, Yuna thrives on high energy and optimism, seeking to choreograph for top groups in the industry. Her rigorous dedication is evident in her consistent participation in dance workshops, studio sessions, and international training. Despite challenges like naivety and overthinking, Yuna's hardworking nature and ability to motivate herself through meditation and creative retreats keep her focused. Surrounded by supportive family and friends, Yuna's generous spirit and desire to share her unique style make her an inspiring figure in the dance scene.</div><br>
 <div class="h2">Early Life</div><div class="plain">From a young age, Yuna displayed a profound passion for dance, first captivating her family at the tender age of three. She cherished every opportunity to perform, particularly her early solo performance at a school event, which left her feeling proud and ecstatic despite initial nervousness. Her relentless dedication earned her a local dance award by age eight, further cementing her ambitions. Yuna's weekends were immersed in dance sessions with the local community, providing her a sense of belonging and a strong foundation. By fifteen, her work was already drawing positive feedback, thanks to online platforms displaying her budding choreographic skills. Encouraged by mentors like the esteemed Lee Min-seo and supported tirelessly by her family, Yuna's early years laid the groundwork for her artistic pursuits.</div><br>

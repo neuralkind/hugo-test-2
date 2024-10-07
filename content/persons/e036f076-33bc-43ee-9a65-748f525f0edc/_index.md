@@ -27,7 +27,8 @@ This is content/persons/e036f076-33bc-43ee-9a65-748f525f0edc/_index.md
     personSelect.value = personId;
     }
 })();
-</script><div class="h1_1_right">Sara Kim</div><br>
+</script><div class="h1_1_right">Sara Kim</div>{{< get_image "persons/e036f076-33bc-43ee-9a65-748f525f0edc/photo/profile.png" >}}
+<br>
 {{< audio
     path="persons/e036f076-33bc-43ee-9a65-748f525f0edc/biography/biography_audio/001.mp3" 
     caption="None"

@@ -27,7 +27,8 @@ This is content/persons/d5f445af-5ffa-45e3-bcf3-ca023ceef095/_index.md
     personSelect.value = personId;
     }
 })();
-</script><div class="h1_1_right">Dev Patel</div><br>
+</script><div class="h1_1_right">Dev Patel</div>{{< get_image "persons/d5f445af-5ffa-45e3-bcf3-ca023ceef095/photo/profile.png" >}}
+<br>
 {{< audio
     path="persons/d5f445af-5ffa-45e3-bcf3-ca023ceef095/biography/biography_audio/001.mp3" 
     caption="None"
