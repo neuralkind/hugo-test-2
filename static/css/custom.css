@@ -1,3 +1,4 @@
+/* font */
 .h1 {
     font-family: 'Roboto', sans-serif;
     font-size: clamp(2.5rem, 6vw, 4.5rem);
@@ -58,8 +59,9 @@
     color: red;
 }
 
-/* 
-.roboto-30-red
-.lato-30-red
-.bebas-30-black
-*/
+/* View */
+#society-select, #person-select {
+    width: 100%; /* Make dropdowns take up full width on mobile */
+    font-size: 16px; /* Ensure they are easy to interact with */
+  }
+  

@@ -4893,43 +4893,30 @@
       console.log('DEBUG: Setting person select to:', selectedPerson);
     }
 
-    updatePersonSelect(societySelect.value);
-    updateNavigationLinks();
-
     
-    societySelect.addEventListener('change', function () {
-      const society = this.value;
+    societySelect.addEventListener('change', handleSocietyChange);
+    societySelect.addEventListener('touchstart', handleSocietyChange);
+
+    function handleSocietyChange() {
+      const society = societySelect.value;
       console.log('DEBUG: Society selected:', society);
       localStorage.setItem('selectedSociety', society);
       updatePersonSelect(society);
       updateNavigationLinks();
-    });
-
-
-
-
-
+    }
 
     
-    personSelect.addEventListener('change', function () {
-      const person = this.value;
+    personSelect.addEventListener('change', handlePersonChange);
+    personSelect.addEventListener('touchstart', handlePersonChange);
+
+    function handlePersonChange() {
+      const person = personSelect.value;
       console.log('111 DEBUG: Person selected:', this);
       console.log('222 DEBUG: Person selected:', person);
       localStorage.setItem('selectedPerson', person);
       updateNavigationLinks();
+    }
 
-      
-
-      
-      
-
-
-
-      
-      
-      
-      
-    });
 
 
 
