@@ -7,7 +7,27 @@ groups = ['d4943ec2-b5e7-4865-a292-878b21a2eace', 'eceed096-ef15-451e-ab53-96f27
 +++
 This is content/persons/0f5e2dd4-464c-4ec9-986a-94a232ab8df8/_index.md
 
-<div class="h1_1_right">Kai Nakamura</div><br>
+<script>
+(function() {
+    const personId = "0f5e2dd4-464c-4ec9-986a-94a232ab8df8";
+    const societyId = "crescent-2024-10-04";
+
+    // Set the selected person and society in localStorage
+    localStorage.setItem('selectedPerson', personId);
+    localStorage.setItem('selectedSociety', societyId);
+
+    // Automatically set the dropdowns based on this person's data
+    const societySelect = document.getElementById('society-select');
+    const personSelect = document.getElementById('person-select');
+
+    if (societySelect) {
+    societySelect.value = societyId;
+    }
+    if (personSelect) {
+    personSelect.value = personId;
+    }
+})();
+</script><div class="h1_1_right">Kai Nakamura</div><br>
 <br>
 <div class="h2">Persona</div><div class="plain">Kai Nakamura is an intriguing figure, seamlessly balancing a dual life as both a student and a secret master of wind magic. Growing up in Tokyo, Japan, he developed a unique blend of passions, ranging from reading mystery novels and practicing martial arts to kite flying, all underlined by his calm, empathic nature and a fierce temper concealed within. His journey as a guardian of magical secrets began when he was accepted into a magical institute as a teenager. Kai is a responsible figure, ever sensitive to the inner emotional triggers that can impact his magical precision. As a practiced wind manipulator, he is known for his calmness under pressure, tirelessly ensuring no magic is exposed to the ordinary world.</div><br>
 <div class="h2">Early Life</div><div class="plain">Kai's early memories are tinged with the elemental presence of wind, beginning with serene moments rocked by gentle sea breezes as a baby. From a snowy fascination at age two to the thrill of kite flying at four, wind was a constant companion in his life. Family trips to the beach amid the brisk winds and the discovery of a mystery novel series at age eight sowed seeds of curiosity and joy. However, at the age of twelve, an unexpected burst of wind revealed his unique abilities, forever etching a turning point in his life. This event marked the start of his purposeful journey, harnessing these powers discreetly while cherishing nature and applying techniques like deep breathing, learned from a trusted mentor, to control his emotional responses and remain calm.</div><br>

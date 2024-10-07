@@ -7,7 +7,29 @@ groups = ['db97cc8b-2af6-44eb-883b-d300d2b82336', '5e45a963-ab93-4dca-bd6c-e81e7
 +++
 This is content/persons/e8bc2ae9-8c59-4b21-a3b4-c62b5b103769/_index.md
 
-<div class="h1_1_right">Luca Romano</div>{{< get_image "persons/e8bc2ae9-8c59-4b21-a3b4-c62b5b103769/photo/profile.png" >}}
+
+    <script>
+    (function() {
+        const personId = "e8bc2ae9-8c59-4b21-a3b4-c62b5b103769";
+        const societyId = "newyork_penthouse-2024-10-04";
+
+        // Set the selected person and society in localStorage
+        localStorage.setItem('selectedPerson', personId);
+        localStorage.setItem('selectedSociety', societyId);
+
+        // Automatically set the dropdowns based on this person's data
+        const societySelect = document.getElementById('society-select');
+        const personSelect = document.getElementById('person-select');
+
+        if (societySelect) {
+        societySelect.value = societyId;
+        }
+        if (personSelect) {
+        personSelect.value = personId;
+        }
+    })();
+    </script>
+    <div class="h1_1_right">Luca Romano</div>{{< get_image "persons/e8bc2ae9-8c59-4b21-a3b4-c62b5b103769/photo/profile.png" >}}
 <br>
 {{< audio
     path="persons/e8bc2ae9-8c59-4b21-a3b4-c62b5b103769/biography/biography_audio/001.mp3" 

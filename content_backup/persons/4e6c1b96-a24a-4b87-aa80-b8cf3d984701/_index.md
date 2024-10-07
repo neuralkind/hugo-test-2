@@ -7,6 +7,28 @@ groups = ['fa5774a6-5cb1-40ef-abb5-004f4e7152e2', '801d333c-cef4-4344-bd9c-ebab3
 +++
 This is content/persons/4e6c1b96-a24a-4b87-aa80-b8cf3d984701/_index.md
 
+
+<script>
+(function() {
+    const personId = "4e6c1b96-a24a-4b87-aa80-b8cf3d984701";
+    const societyId = "seoul_soulmate-2024-10-04";
+
+    // Set the selected person and society in localStorage
+    localStorage.setItem('selectedPerson', personId);
+    localStorage.setItem('selectedSociety', societyId);
+
+    // Automatically set the dropdowns based on this person's data
+    const societySelect = document.getElementById('society-select');
+    const personSelect = document.getElementById('person-select');
+
+    if (societySelect) {
+    societySelect.value = societyId;
+    }
+    if (personSelect) {
+    personSelect.value = personId;
+    }
+})();
+</script>
 <div class="h1_1_right">Yuna Park</div><br>
 <br>
 <div class="h2">Persona</div><div class="plain">Yuna Park, a 26-year-old Korean dancer and choreographer from Seoul, is recognized for her vibrant personality and athletic build. With a deep passion for dance, especially K-pop styles, Yuna thrives on high energy and optimism, seeking to choreograph for top groups in the industry. Her rigorous dedication is evident in her consistent participation in dance workshops, studio sessions, and international training. Despite challenges like naivety and overthinking, Yuna's hardworking nature and ability to motivate herself through meditation and creative retreats keep her focused. Surrounded by supportive family and friends, Yuna's generous spirit and desire to share her unique style make her an inspiring figure in the dance scene.</div><br>

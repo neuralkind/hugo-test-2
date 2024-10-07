@@ -7,7 +7,27 @@ groups = ['93aa2ac3-2fc2-46a8-ada3-06422c1a3d20', '2bb7723a-284b-4246-a74a-09df5
 +++
 This is content/persons/2956e4dd-4117-4d9a-9794-5fe37c279dc9/_index.md
 
-<div class="h1_1_right">Zoe Patel</div><br>
+<script>
+(function() {
+    const personId = "2956e4dd-4117-4d9a-9794-5fe37c279dc9";
+    const societyId = "crescent-2024-10-04";
+
+    // Set the selected person and society in localStorage
+    localStorage.setItem('selectedPerson', personId);
+    localStorage.setItem('selectedSociety', societyId);
+
+    // Automatically set the dropdowns based on this person's data
+    const societySelect = document.getElementById('society-select');
+    const personSelect = document.getElementById('person-select');
+
+    if (societySelect) {
+    societySelect.value = societyId;
+    }
+    if (personSelect) {
+    personSelect.value = personId;
+    }
+})();
+</script><div class="h1_1_right">Zoe Patel</div><br>
 {{< audio
     path="persons/2956e4dd-4117-4d9a-9794-5fe37c279dc9/biography/biography_audio/001.mp3" 
     caption="None"

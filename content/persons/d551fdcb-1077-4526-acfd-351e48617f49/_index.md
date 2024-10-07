@@ -7,7 +7,27 @@ groups = ['b3d865c7-e1ce-44ed-95bb-2c4bbbd253d6']
 +++
 This is content/persons/d551fdcb-1077-4526-acfd-351e48617f49/_index.md
 
-<div class="h1_1_right">Riku Honda</div>{{< get_image "persons/d551fdcb-1077-4526-acfd-351e48617f49/photo/profile.png" >}}
+<script>
+(function() {
+    const personId = "d551fdcb-1077-4526-acfd-351e48617f49";
+    const societyId = "station_11-2024-10-04";
+
+    // Set the selected person and society in localStorage
+    localStorage.setItem('selectedPerson', personId);
+    localStorage.setItem('selectedSociety', societyId);
+
+    // Automatically set the dropdowns based on this person's data
+    const societySelect = document.getElementById('society-select');
+    const personSelect = document.getElementById('person-select');
+
+    if (societySelect) {
+    societySelect.value = societyId;
+    }
+    if (personSelect) {
+    personSelect.value = personId;
+    }
+})();
+</script><div class="h1_1_right">Riku Honda</div>{{< get_image "persons/d551fdcb-1077-4526-acfd-351e48617f49/photo/profile.png" >}}
 <br>
 {{< audio
     path="persons/d551fdcb-1077-4526-acfd-351e48617f49/biography/biography_audio/001.mp3" 

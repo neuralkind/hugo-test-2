@@ -7,7 +7,27 @@ groups = ['5e45a963-ab93-4dca-bd6c-e81e7b760d98', '01c2a365-7d29-480e-93b5-76971
 +++
 This is content/persons/f4ee81ea-4f97-414a-afbf-e758772902a9/_index.md
 
-<div class="h1_1_right">Leila Thompson</div>{{< get_image "persons/f4ee81ea-4f97-414a-afbf-e758772902a9/photo/profile.png" >}}
+<script>
+(function() {
+    const personId = "f4ee81ea-4f97-414a-afbf-e758772902a9";
+    const societyId = "newyork_penthouse-2024-10-04";
+
+    // Set the selected person and society in localStorage
+    localStorage.setItem('selectedPerson', personId);
+    localStorage.setItem('selectedSociety', societyId);
+
+    // Automatically set the dropdowns based on this person's data
+    const societySelect = document.getElementById('society-select');
+    const personSelect = document.getElementById('person-select');
+
+    if (societySelect) {
+    societySelect.value = societyId;
+    }
+    if (personSelect) {
+    personSelect.value = personId;
+    }
+})();
+</script><div class="h1_1_right">Leila Thompson</div>{{< get_image "persons/f4ee81ea-4f97-414a-afbf-e758772902a9/photo/profile.png" >}}
 <br>
 {{< audio
     path="persons/f4ee81ea-4f97-414a-afbf-e758772902a9/biography/biography_audio/001.mp3" 

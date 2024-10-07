@@ -7,7 +7,29 @@ groups = ['f1066853-3870-4176-b02c-bc49064d084f']
 +++
 This is content/persons/2b9f57b6-ca51-442f-be80-0d9d1576ed84/_index.md
 
-<div class="h1_1_right">Chloe Lee</div>{{< get_image "persons/2b9f57b6-ca51-442f-be80-0d9d1576ed84/photo/profile.png" >}}
+
+    <script>
+    (function() {
+        const personId = "2b9f57b6-ca51-442f-be80-0d9d1576ed84";
+        const societyId = "seoul_soulmate-2024-10-04";
+
+        // Set the selected person and society in localStorage
+        localStorage.setItem('selectedPerson', personId);
+        localStorage.setItem('selectedSociety', societyId);
+
+        // Automatically set the dropdowns based on this person's data
+        const societySelect = document.getElementById('society-select');
+        const personSelect = document.getElementById('person-select');
+
+        if (societySelect) {
+        societySelect.value = societyId;
+        }
+        if (personSelect) {
+        personSelect.value = personId;
+        }
+    })();
+    </script>
+    <div class="h1_1_right">Chloe Lee</div>{{< get_image "persons/2b9f57b6-ca51-442f-be80-0d9d1576ed84/photo/profile.png" >}}
 <br>
 {{< audio
     path="persons/2b9f57b6-ca51-442f-be80-0d9d1576ed84/biography/biography_audio/001.mp3" 

@@ -7,7 +7,27 @@ groups = ['f1066853-3870-4176-b02c-bc49064d084f']
 +++
 This is content/persons/26ed9539-e1e9-4b2f-8b19-3d2ba0f03caf/_index.md
 
-<div class="h1_1_right">Mei-Lin Wu</div>{{< get_image "persons/26ed9539-e1e9-4b2f-8b19-3d2ba0f03caf/photo/profile.png" >}}
+<script>
+(function() {
+    const personId = "26ed9539-e1e9-4b2f-8b19-3d2ba0f03caf";
+    const societyId = "seoul_soulmate-2024-10-04";
+
+    // Set the selected person and society in localStorage
+    localStorage.setItem('selectedPerson', personId);
+    localStorage.setItem('selectedSociety', societyId);
+
+    // Automatically set the dropdowns based on this person's data
+    const societySelect = document.getElementById('society-select');
+    const personSelect = document.getElementById('person-select');
+
+    if (societySelect) {
+    societySelect.value = societyId;
+    }
+    if (personSelect) {
+    personSelect.value = personId;
+    }
+})();
+</script><div class="h1_1_right">Mei-Lin Wu</div>{{< get_image "persons/26ed9539-e1e9-4b2f-8b19-3d2ba0f03caf/photo/profile.png" >}}
 <br>
 {{< audio
     path="persons/26ed9539-e1e9-4b2f-8b19-3d2ba0f03caf/biography/biography_audio/001.mp3" 

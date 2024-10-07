@@ -7,7 +7,29 @@ groups = ['93aa2ac3-2fc2-46a8-ada3-06422c1a3d20']
 +++
 This is content/persons/1a6161b5-dd75-45a8-b7c5-ec728fd0934b/_index.md
 
-<div class="h1_1_right">Max Delgado</div><br>
+
+    <script>
+    (function() {
+        const personId = "1a6161b5-dd75-45a8-b7c5-ec728fd0934b";
+        const societyId = "crescent-2024-10-04";
+
+        // Set the selected person and society in localStorage
+        localStorage.setItem('selectedPerson', personId);
+        localStorage.setItem('selectedSociety', societyId);
+
+        // Automatically set the dropdowns based on this person's data
+        const societySelect = document.getElementById('society-select');
+        const personSelect = document.getElementById('person-select');
+
+        if (societySelect) {
+        societySelect.value = societyId;
+        }
+        if (personSelect) {
+        personSelect.value = personId;
+        }
+    })();
+    </script>
+    <div class="h1_1_right">Max Delgado</div><br>
 {{< audio
     path="persons/1a6161b5-dd75-45a8-b7c5-ec728fd0934b/biography/biography_audio/001.mp3" 
     caption="None"

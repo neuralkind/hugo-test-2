@@ -7,7 +7,29 @@ groups = ['b3d865c7-e1ce-44ed-95bb-2c4bbbd253d6']
 +++
 This is content/persons/ef4df2d8-8bbc-4b64-80b1-6950822b57fc/_index.md
 
-<div class="h1_1_right">Junpei Nakamura</div>{{< get_image "persons/ef4df2d8-8bbc-4b64-80b1-6950822b57fc/photo/profile.png" >}}
+
+    <script>
+    (function() {
+        const personId = "ef4df2d8-8bbc-4b64-80b1-6950822b57fc";
+        const societyId = "station_11-2024-10-04";
+
+        // Set the selected person and society in localStorage
+        localStorage.setItem('selectedPerson', personId);
+        localStorage.setItem('selectedSociety', societyId);
+
+        // Automatically set the dropdowns based on this person's data
+        const societySelect = document.getElementById('society-select');
+        const personSelect = document.getElementById('person-select');
+
+        if (societySelect) {
+        societySelect.value = societyId;
+        }
+        if (personSelect) {
+        personSelect.value = personId;
+        }
+    })();
+    </script>
+    <div class="h1_1_right">Junpei Nakamura</div>{{< get_image "persons/ef4df2d8-8bbc-4b64-80b1-6950822b57fc/photo/profile.png" >}}
 <br>
 {{< audio
     path="persons/ef4df2d8-8bbc-4b64-80b1-6950822b57fc/biography/biography_audio/001.mp3" 

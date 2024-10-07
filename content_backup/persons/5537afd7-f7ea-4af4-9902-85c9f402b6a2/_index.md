@@ -7,7 +7,29 @@ groups = ['01c2a365-7d29-480e-93b5-7697137e6593', 'c9a945de-03dd-4264-85b0-c1de1
 +++
 This is content/persons/5537afd7-f7ea-4af4-9902-85c9f402b6a2/_index.md
 
-<div class="h1_1_right">Julian Rosenfeld</div>{{< get_image "persons/5537afd7-f7ea-4af4-9902-85c9f402b6a2/photo/profile.png" >}}
+
+    <script>
+    (function() {
+        const personId = "5537afd7-f7ea-4af4-9902-85c9f402b6a2";
+        const societyId = "newyork_penthouse-2024-10-04";
+
+        // Set the selected person and society in localStorage
+        localStorage.setItem('selectedPerson', personId);
+        localStorage.setItem('selectedSociety', societyId);
+
+        // Automatically set the dropdowns based on this person's data
+        const societySelect = document.getElementById('society-select');
+        const personSelect = document.getElementById('person-select');
+
+        if (societySelect) {
+        societySelect.value = societyId;
+        }
+        if (personSelect) {
+        personSelect.value = personId;
+        }
+    })();
+    </script>
+    <div class="h1_1_right">Julian Rosenfeld</div>{{< get_image "persons/5537afd7-f7ea-4af4-9902-85c9f402b6a2/photo/profile.png" >}}
 <br>
 {{< audio
     path="persons/5537afd7-f7ea-4af4-9902-85c9f402b6a2/biography/biography_audio/001.mp3" 

@@ -7,7 +7,29 @@ groups = ['eceed096-ef15-451e-ab53-96f27552f6a2']
 +++
 This is content/persons/9fd19710-ee85-48ea-ac9f-daeb445b0e11/_index.md
 
-<div class="h1_1_right">Noah Anderson</div><br>
+
+    <script>
+    (function() {
+        const personId = "9fd19710-ee85-48ea-ac9f-daeb445b0e11";
+        const societyId = "crescent-2024-10-04";
+
+        // Set the selected person and society in localStorage
+        localStorage.setItem('selectedPerson', personId);
+        localStorage.setItem('selectedSociety', societyId);
+
+        // Automatically set the dropdowns based on this person's data
+        const societySelect = document.getElementById('society-select');
+        const personSelect = document.getElementById('person-select');
+
+        if (societySelect) {
+        societySelect.value = societyId;
+        }
+        if (personSelect) {
+        personSelect.value = personId;
+        }
+    })();
+    </script>
+    <div class="h1_1_right">Noah Anderson</div><br>
 <br>
 <div class="h2">Persona</div><div class="plain">Noah Anderson, a 26-year-old American healer, is renowned for his compassion and empathy. Raised in Mock City, he discovered his healing abilities early on which prompted his admission into a secret magical institute at 15. He is athletic, with a penchant for sketching and reading fantasy novels, which fuels his imagination and spiritual growth. Despite challenges such as self-sacrifice and anxiety, Noah's nurturing temperament shines. During his journey, mentors like Professor Iris have shaped his expertise in healing magic. Often calm and introspective, he's driven by an unwavering resolve to aid others while maintaining the delicate secrecy of his powers.</div><br>
 <div class="h2">Early Life</div><div class="plain">Noah's childhood was peppered with both ordinary and magical experiences. From an early age, he felt a mystical connection to nature, especially when encountering a rainbow at age five. His initial school years saw visits to a hidden library that enhanced his love for storytelling and fantasy worlds. A defining moment arrived at age ten when he healed an injured bird, thus awakening his powers. The subsequent years saw him join his school's basketball team and eventually reveal his magical abilities to a curious classmate. These moments not only fostered his skills but also cultivated a thoughtful and resilient character that guided him into the esteemed magical institute.</div><br>

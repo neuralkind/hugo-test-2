@@ -7,7 +7,29 @@ groups = ['d4943ec2-b5e7-4865-a292-878b21a2eace', 'eceed096-ef15-451e-ab53-96f27
 +++
 This is content/persons/99f8b333-78de-48a5-96f4-5a4d5a58eb86/_index.md
 
-<div class="h1_1_right">Leila Santos</div><br>
+
+    <script>
+    (function() {
+        const personId = "99f8b333-78de-48a5-96f4-5a4d5a58eb86";
+        const societyId = "crescent-2024-10-04";
+
+        // Set the selected person and society in localStorage
+        localStorage.setItem('selectedPerson', personId);
+        localStorage.setItem('selectedSociety', societyId);
+
+        // Automatically set the dropdowns based on this person's data
+        const societySelect = document.getElementById('society-select');
+        const personSelect = document.getElementById('person-select');
+
+        if (societySelect) {
+        societySelect.value = societyId;
+        }
+        if (personSelect) {
+        personSelect.value = personId;
+        }
+    })();
+    </script>
+    <div class="h1_1_right">Leila Santos</div><br>
 <br>
 <div class="h2">Persona</div><div class="plain">Leila Santos, often referred to as Lei, is a highly strategic thinker with an impressive knack for solving complex problems. Born in Barcelona and raised in London, she leads a dual life as a prestigious school student and a member of a secret magic institute where she studies her unique ability: time manipulation. Leila is known for her calm and reflective nature but harbors a fear of being exposed for her magical powers. Despite her reserved demeanor, she is a loyal friend and a member of the institute's secret council. With diverse interests like chess and journaling, she is an advanced problem-solver with a strong sense of loyalty and a deep commitment to bridging magic with normal life.</div><br>
 <div class="h2">Early Life</div><div class="plain">Leila's early memories are rich with familial warmth and a burgeoning curiosity for magic and strategy. Her first steps on Barcelona's sun-kissed sands were accompanied by the cheery encouragement of her parents, marking a triumphant beginning. Chess games with her mother paved her path as a budding strategist, while visits to labyrinth gardens with her father challenged her intellect. A pivotal moment at age four was her first encounter with a wand, under the careful guidance of her mother, which sparked her magical journey. Significant milestones include learning multiplication and moving to London at age ten, where she received a watch—a symbol connecting her to her time manipulation ability discovered a year later while saving her brother from a fall.</div><br>

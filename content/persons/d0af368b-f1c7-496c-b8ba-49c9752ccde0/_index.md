@@ -7,7 +7,27 @@ groups = ['ab462d37-b473-4130-899a-716f20ee7f76']
 +++
 This is content/persons/d0af368b-f1c7-496c-b8ba-49c9752ccde0/_index.md
 
-<div class="h1_1_right">Shun Ogawa</div><br>
+<script>
+(function() {
+    const personId = "d0af368b-f1c7-496c-b8ba-49c9752ccde0";
+    const societyId = "station_11-2024-10-04";
+
+    // Set the selected person and society in localStorage
+    localStorage.setItem('selectedPerson', personId);
+    localStorage.setItem('selectedSociety', societyId);
+
+    // Automatically set the dropdowns based on this person's data
+    const societySelect = document.getElementById('society-select');
+    const personSelect = document.getElementById('person-select');
+
+    if (societySelect) {
+    societySelect.value = societyId;
+    }
+    if (personSelect) {
+    personSelect.value = personId;
+    }
+})();
+</script><div class="h1_1_right">Shun Ogawa</div><br>
 <br>
 <div class="h2">Persona</div><div class="plain">Shun Ogawa, a 18-year-old Japanese student, currently pursuing his studies at the esteemed Station-11 Academy, is renowned for his perfectionist persona and detail-oriented approach. Born and raised in a family steeped in engineering and design, Shun's fascination with technology began in childhood. Highly creative and focused, he excels in robotics, 3D modeling, and virtual reality programming. Inspired by his elder brother, he chose unconventional pathways, driven by his ambition to unravel technological secrets and perfect AI models. Despite being highly conscientious, he grapples with a tendency to self-isolate, driven by a deep-seated fear of failure and imperfection.</div><br>
 <div class="h2">Early Life</div><div class="plain">Shun's early memories are a testament to his early inclination towards technology. Born in Kyoto, he remembers receiving a robot toy from his brother, which sparked his lifelong love for robotics. As a child, he was deeply motivated by winning first place at a national science fair at 10, where he felt immense pride. Memories of building robots with his brother, awed by Kyoto's ancient temples, and facing an early failure with a complex robot project, shaped his resilient spirit. Relocating at 12, Shun felt isolated but channeled this into a newfound passion for virtual worlds. By 15, he was already recognized for his VR modeling talents, leading to his acceptance into Station-11 Academy, marking the beginning of his promising journey in AI.</div><br>

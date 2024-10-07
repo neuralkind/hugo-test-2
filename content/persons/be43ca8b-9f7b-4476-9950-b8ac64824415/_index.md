@@ -7,7 +7,27 @@ groups = ['db97cc8b-2af6-44eb-883b-d300d2b82336', '236bc21f-5b07-49b6-9029-50454
 +++
 This is content/persons/be43ca8b-9f7b-4476-9950-b8ac64824415/_index.md
 
-<div class="h1_1_right">Victor Chan</div>{{< get_image "persons/be43ca8b-9f7b-4476-9950-b8ac64824415/photo/profile.png" >}}
+<script>
+(function() {
+    const personId = "be43ca8b-9f7b-4476-9950-b8ac64824415";
+    const societyId = "newyork_penthouse-2024-10-04";
+
+    // Set the selected person and society in localStorage
+    localStorage.setItem('selectedPerson', personId);
+    localStorage.setItem('selectedSociety', societyId);
+
+    // Automatically set the dropdowns based on this person's data
+    const societySelect = document.getElementById('society-select');
+    const personSelect = document.getElementById('person-select');
+
+    if (societySelect) {
+    societySelect.value = societyId;
+    }
+    if (personSelect) {
+    personSelect.value = personId;
+    }
+})();
+</script><div class="h1_1_right">Victor Chan</div>{{< get_image "persons/be43ca8b-9f7b-4476-9950-b8ac64824415/photo/profile.png" >}}
 <br>
 {{< audio
     path="persons/be43ca8b-9f7b-4476-9950-b8ac64824415/biography/biography_audio/001.mp3" 

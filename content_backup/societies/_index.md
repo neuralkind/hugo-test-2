@@ -2,7 +2,7 @@
 title = ""
 draft = false
 +++
-This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/societies/_index.md
+This is content/societies/_index.md
 
 {{< get_image_with_overlay_2x2_link 
   "societies/newyork/photo/newyork1.png"

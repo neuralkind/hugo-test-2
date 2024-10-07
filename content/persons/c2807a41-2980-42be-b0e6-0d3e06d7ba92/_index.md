@@ -7,7 +7,27 @@ groups = ['93aa2ac3-2fc2-46a8-ada3-06422c1a3d20', '2bb7723a-284b-4246-a74a-09df5
 +++
 This is content/persons/c2807a41-2980-42be-b0e6-0d3e06d7ba92/_index.md
 
-<div class="h1_1_right">Julian Nguyen</div><br>
+<script>
+(function() {
+    const personId = "c2807a41-2980-42be-b0e6-0d3e06d7ba92";
+    const societyId = "crescent-2024-10-04";
+
+    // Set the selected person and society in localStorage
+    localStorage.setItem('selectedPerson', personId);
+    localStorage.setItem('selectedSociety', societyId);
+
+    // Automatically set the dropdowns based on this person's data
+    const societySelect = document.getElementById('society-select');
+    const personSelect = document.getElementById('person-select');
+
+    if (societySelect) {
+    societySelect.value = societyId;
+    }
+    if (personSelect) {
+    personSelect.value = personId;
+    }
+})();
+</script><div class="h1_1_right">Julian Nguyen</div><br>
 {{< audio
     path="persons/c2807a41-2980-42be-b0e6-0d3e06d7ba92/biography/biography_audio/001.mp3" 
     caption="None"

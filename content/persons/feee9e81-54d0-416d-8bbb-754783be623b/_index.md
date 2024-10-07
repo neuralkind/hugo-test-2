@@ -7,7 +7,27 @@ groups = ['d4943ec2-b5e7-4865-a292-878b21a2eace', 'eceed096-ef15-451e-ab53-96f27
 +++
 This is content/persons/feee9e81-54d0-416d-8bbb-754783be623b/_index.md
 
-<div class="h1_1_right">Ethan Ng</div><br>
+<script>
+(function() {
+    const personId = "feee9e81-54d0-416d-8bbb-754783be623b";
+    const societyId = "crescent-2024-10-04";
+
+    // Set the selected person and society in localStorage
+    localStorage.setItem('selectedPerson', personId);
+    localStorage.setItem('selectedSociety', societyId);
+
+    // Automatically set the dropdowns based on this person's data
+    const societySelect = document.getElementById('society-select');
+    const personSelect = document.getElementById('person-select');
+
+    if (societySelect) {
+    societySelect.value = societyId;
+    }
+    if (personSelect) {
+    personSelect.value = personId;
+    }
+})();
+</script><div class="h1_1_right">Ethan Ng</div><br>
 <br>
 <div class="h2">Persona</div><div class="plain">Ethan Ng is a dynamic individual skilled in both technology and magic. Born in 2007, he has a distinctive knack for electronics, a fascination that emerged in his childhood. With Asian heritage, Ethan stands at 170 cm with an athletic build. He’s clever, witty, resourceful, and enjoys reading science fiction, video gaming, and tinkering with gadgets. His dual life encompasses being a student and a magical trainee, driven by his desire to master his electrical powers and maintain the secrecy of the magical realm. Despite being prone to overthinking and frustration, Ethan’s resilience shines through his pursuit of integrating technology with magic.</div><br>
 <div class="h2">Early Life</div><div class="plain">Ethan's early years were marked by curiosity and a burgeoning interest in technology. He fondly recalls the soothing hum of the TV in his infancy and being mesmerized by the brightness of a laptop screen at age three. This fascination evolved into ingenious projects like crafting a ‘robot’ from wires and boxes and fixing a radio, applauded for its revival. A turning point came with a self-inflicted shock, unveiling his ability to harness electricity. His talents earned him a visit to a magical institute at 12, catalyzing his journey into a dual world. By age 15, with his mentor’s encouragement, he adeptly balanced tech innovation and magical stabilization.</div><br>

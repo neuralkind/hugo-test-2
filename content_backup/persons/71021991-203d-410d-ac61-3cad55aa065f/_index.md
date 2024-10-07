@@ -7,7 +7,29 @@ groups = ['fa5774a6-5cb1-40ef-abb5-004f4e7152e2', 'f1066853-3870-4176-b02c-bc490
 +++
 This is content/persons/71021991-203d-410d-ac61-3cad55aa065f/_index.md
 
-<div class="h1_1_right">Heejin Cho</div>{{< get_image "persons/71021991-203d-410d-ac61-3cad55aa065f/photo/profile.png" >}}
+
+    <script>
+    (function() {
+        const personId = "71021991-203d-410d-ac61-3cad55aa065f";
+        const societyId = "seoul_soulmate-2024-10-04";
+
+        // Set the selected person and society in localStorage
+        localStorage.setItem('selectedPerson', personId);
+        localStorage.setItem('selectedSociety', societyId);
+
+        // Automatically set the dropdowns based on this person's data
+        const societySelect = document.getElementById('society-select');
+        const personSelect = document.getElementById('person-select');
+
+        if (societySelect) {
+        societySelect.value = societyId;
+        }
+        if (personSelect) {
+        personSelect.value = personId;
+        }
+    })();
+    </script>
+    <div class="h1_1_right">Heejin Cho</div>{{< get_image "persons/71021991-203d-410d-ac61-3cad55aa065f/photo/profile.png" >}}
 <br>
 {{< audio
     path="persons/71021991-203d-410d-ac61-3cad55aa065f/biography/biography_audio/001.mp3" 

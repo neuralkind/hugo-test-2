@@ -7,7 +7,29 @@ groups = ['01c2a365-7d29-480e-93b5-7697137e6593']
 +++
 This is content/persons/65e00d78-14bc-4333-b0a5-4dd9b31151f4/_index.md
 
-<div class="h1_1_right">Connor O’Sullivan</div>{{< get_image "persons/65e00d78-14bc-4333-b0a5-4dd9b31151f4/photo/profile.png" >}}
+
+    <script>
+    (function() {
+        const personId = "65e00d78-14bc-4333-b0a5-4dd9b31151f4";
+        const societyId = "newyork_penthouse-2024-10-04";
+
+        // Set the selected person and society in localStorage
+        localStorage.setItem('selectedPerson', personId);
+        localStorage.setItem('selectedSociety', societyId);
+
+        // Automatically set the dropdowns based on this person's data
+        const societySelect = document.getElementById('society-select');
+        const personSelect = document.getElementById('person-select');
+
+        if (societySelect) {
+        societySelect.value = societyId;
+        }
+        if (personSelect) {
+        personSelect.value = personId;
+        }
+    })();
+    </script>
+    <div class="h1_1_right">Connor O’Sullivan</div>{{< get_image "persons/65e00d78-14bc-4333-b0a5-4dd9b31151f4/photo/profile.png" >}}
 <br>
 {{< audio
     path="persons/65e00d78-14bc-4333-b0a5-4dd9b31151f4/biography/biography_audio/001.mp3" 

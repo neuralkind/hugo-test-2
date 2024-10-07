@@ -7,7 +7,33 @@ groups = ['236bc21f-5b07-49b6-9029-5045495f4dc6', 'c9a945de-03dd-4264-85b0-c1de1
 +++
 This is content/persons/e036f076-33bc-43ee-9a65-748f525f0edc/_index.md
 
-<div class="h1_1_right">Sara Kim</div><br>
+
+    <script>
+    (function() {
+        const personId = "e036f076-33bc-43ee-9a65-748f525f0edc";
+        const societyId = "newyork_penthouse-2024-10-04";
+
+        // Set the selected person and society in localStorage
+        localStorage.setItem('selectedPerson', personId);
+        localStorage.setItem('selectedSociety', societyId);
+
+        // Automatically set the dropdowns based on this person's data
+        const societySelect = document.getElementById('society-select');
+        const personSelect = document.getElementById('person-select');
+
+        if (societySelect) {
+        societySelect.value = societyId;
+        }
+        if (personSelect) {
+        personSelect.value = personId;
+        }
+    })();
+    </script>
+    <div class="h1_1_right">Sara Kim</div><br>
+{{< audio
+    path="persons/e036f076-33bc-43ee-9a65-748f525f0edc/biography/biography_audio/001.mp3" 
+    caption="None"
+>}}
 <br>
 <div class="h2">Persona</div><div class="plain">Sara Kim is a dedicated and empathetic social worker whose strong grounding in Buddhism aids her in maintaining self-care while helping others. Deeply committed to her profession, she embodies key strengths of empathy, patience, and cultural competence. While overly self-sacrificing at times and prone to bottling stress, Sara counters these with regular yoga and meditation practices. Her warm smile and casual professional attire reflect a calm demeanor. A graduate from CUNY, she has made significant impacts through her work, inspired by her mentor, Professor Jean Daniels. Sara thrives amidst supportive networks of friends and colleagues, continuously seeking personal and professional growth.</div><br>
 <div class="h2">Early Life</div><div class="plain">Born in Seattle, Sara's formative years were filled with memorable, character-building experiences. Early on, she found joy in simple pleasures, like playing with her sister and spending summers with her grandparents in Korea. Moving to New York City at six, Sara initially felt nervous but quickly adapted by indulging in books. This love for reading eventually led her to join a school's reading club, where she found camaraderie and inspired aspirations. By her teen years, she started volunteering at the local library, instilling a sense of purpose in her pursuit of social work. Her empathetic nature was evident when she helped a struggling friend in high school, marking the beginning of her social work journey. With a supportive family and fulfilling friendships, her high school years culminated in dedicating her life to helping others.</div><br>

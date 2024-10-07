@@ -7,7 +7,29 @@ groups = ['32720e01-72a9-4a55-9293-963b1a048ebc']
 +++
 This is content/persons/29ab1d21-312e-4e57-9d12-b140b0af7327/_index.md
 
-<div class="h1_1_right">Kaori Tanaka</div><br>
+
+    <script>
+    (function() {
+        const personId = "29ab1d21-312e-4e57-9d12-b140b0af7327";
+        const societyId = "station_11-2024-10-04";
+
+        // Set the selected person and society in localStorage
+        localStorage.setItem('selectedPerson', personId);
+        localStorage.setItem('selectedSociety', societyId);
+
+        // Automatically set the dropdowns based on this person's data
+        const societySelect = document.getElementById('society-select');
+        const personSelect = document.getElementById('person-select');
+
+        if (societySelect) {
+        societySelect.value = societyId;
+        }
+        if (personSelect) {
+        personSelect.value = personId;
+        }
+    })();
+    </script>
+    <div class="h1_1_right">Kaori Tanaka</div><br>
 <br>
 <div class="h2">Persona</div><div class="plain">Kaori Tanaka is an innovative 18-year-old Japanese VR specialist known for her mastery in sensory manipulation within virtual environments. She thrives on exploring nature-inspired landscapes in the simulation, blending playfulness with discernment. Her commitment to pushing boundaries in VR has propelled her from a traditional tech enthusiast into a daring innovator, while her nickname, "The Sensation Genius," signifies her unparalleled ability to affect tactile experiences in the virtual realm. Though impulsive and secretive, Kaori balances these traits with perceptive insights and a strong sense of creativity. She is deeply motivated by a personal drive to uncover anomalies within the Horizon simulation and aspires to lead the future of VR experiences.</div><br>
 <div class="h2">Early Life</div><div class="plain">Growing up in Tokyo, Kaori exhibited a strong fascination with technology from an early age, smiling at her father's gadgets as a baby and dismantling her mother's phone at one. Her curiosity flourished as she attempted to construct robots from toy blocks by age two. Frequenting science museums and participating in robotics workshops throughout her childhood, she designed a simple circuit at her preschool science fair. By age seven, she had won a prize at a local gadget exhibit and pranked friends with VR goggles by eleven. Creating robots and venturing into VR club activities solidified her love for sensory technology, culminating in a pivotal decision to join Station-11 after winning a national technology competition at 16, setting the stage for her innovative pursuits.</div><br>

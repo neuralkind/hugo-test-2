@@ -7,7 +7,27 @@ groups = ['5e45a963-ab93-4dca-bd6c-e81e7b760d98']
 +++
 This is content/persons/42245128-4b13-4cdf-99a8-5a29216caebd/_index.md
 
-<div class="h1_1_right">Jasmine Park</div><br>
+<script>
+(function() {
+    const personId = "42245128-4b13-4cdf-99a8-5a29216caebd";
+    const societyId = "newyork_penthouse-2024-10-04";
+
+    // Set the selected person and society in localStorage
+    localStorage.setItem('selectedPerson', personId);
+    localStorage.setItem('selectedSociety', societyId);
+
+    // Automatically set the dropdowns based on this person's data
+    const societySelect = document.getElementById('society-select');
+    const personSelect = document.getElementById('person-select');
+
+    if (societySelect) {
+    societySelect.value = societyId;
+    }
+    if (personSelect) {
+    personSelect.value = personId;
+    }
+})();
+</script><div class="h1_1_right">Jasmine Park</div><br>
 <br>
 <div class="h2">Persona</div><div class="plain">Jasmine Park, a 26-year-old Korean-American, is a talented film editor from Los Angeles. With a Bachelor's degree in Film Studies from UCLA, she's grown from a novice enthusiast to a respected indie film editor. Jasmine is known for her proficiency in film editing, photography, and script writing, combined with her deep creative instincts. Despite being introverted and sarcastic, she's observant, calm, and remarkably creative. Her life is peppered with hobbies like photography, collecting vintage records, and attending indie film screenings. Although agnostic, Jasmine treasures personal creative pursuits, often finding solace in music. She values her tight-knit circle of film school friends and professional connections in the indie film scene. Dedicated to her craft, she dreams of editing a feature film while overcoming public speaking and team sports challenges.</div><br>
 <div class="h2">Early Life</div><div class="plain">Jasmine's early memories reflect a childhood replete with warmth, creativity, and the beginnings of her passion for film. Born in San Francisco, her tender years were marked by the loss of her mother at age eight, leading her to find comfort in films shared with her father. Early in life, she was fascinated by visuals—tuning into colorful TV shapes and capturing her surroundings with a toy camera ignited her love for imagery. Her defining childhood moments included visits to film sets and winning a school photo contest, reinforcing her passion for storytelling. Receiving film editing software as a birthday gift at fourteen and attending indie film festivals further opened her world to cinematic possibilities, setting the foundation for a future in filmmaking.</div><br>

@@ -7,7 +7,27 @@ groups = ['2bb7723a-284b-4246-a74a-09df5eacafd5']
 +++
 This is content/persons/651f3695-509f-416d-b32a-e2e364e9fcce/_index.md
 
-<div class="h1_1_right">Felix Hwang</div><br>
+<script>
+(function() {
+    const personId = "651f3695-509f-416d-b32a-e2e364e9fcce";
+    const societyId = "crescent-2024-10-04";
+
+    // Set the selected person and society in localStorage
+    localStorage.setItem('selectedPerson', personId);
+    localStorage.setItem('selectedSociety', societyId);
+
+    // Automatically set the dropdowns based on this person's data
+    const societySelect = document.getElementById('society-select');
+    const personSelect = document.getElementById('person-select');
+
+    if (societySelect) {
+    societySelect.value = societyId;
+    }
+    if (personSelect) {
+    personSelect.value = personId;
+    }
+})();
+</script><div class="h1_1_right">Felix Hwang</div><br>
 {{< audio
     path="persons/651f3695-509f-416d-b32a-e2e364e9fcce/biography/biography_audio/001.mp3" 
     caption="None"

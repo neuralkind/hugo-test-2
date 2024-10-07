@@ -7,7 +7,29 @@ groups = ['93aa2ac3-2fc2-46a8-ada3-06422c1a3d20']
 +++
 This is content/persons/e0a8ef37-d926-4170-9554-6b8f5619a1b8/_index.md
 
-<div class="h1_1_right">Hana Kim</div><br>
+
+    <script>
+    (function() {
+        const personId = "e0a8ef37-d926-4170-9554-6b8f5619a1b8";
+        const societyId = "crescent-2024-10-04";
+
+        // Set the selected person and society in localStorage
+        localStorage.setItem('selectedPerson', personId);
+        localStorage.setItem('selectedSociety', societyId);
+
+        // Automatically set the dropdowns based on this person's data
+        const societySelect = document.getElementById('society-select');
+        const personSelect = document.getElementById('person-select');
+
+        if (societySelect) {
+        societySelect.value = societyId;
+        }
+        if (personSelect) {
+        personSelect.value = personId;
+        }
+    })();
+    </script>
+    <div class="h1_1_right">Hana Kim</div><br>
 {{< audio
     path="persons/e0a8ef37-d926-4170-9554-6b8f5619a1b8/biography/biography_audio/001.mp3" 
     caption="None"
