@@ -5,8 +5,6 @@ draft = false
 society = "station_11-2024-10-04"
 groups = ['b3d865c7-e1ce-44ed-95bb-2c4bbbd253d6']
 +++
-This is content/persons/d551fdcb-1077-4526-acfd-351e48617f49/_index.md
-
 <script>
 (function() {
     const personId = "d551fdcb-1077-4526-acfd-351e48617f49";

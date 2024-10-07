@@ -5,8 +5,6 @@ draft = false
 society = "seoul_soulmate-2024-10-04"
 groups = ['f1066853-3870-4176-b02c-bc49064d084f']
 +++
-This is content/persons/70e7cb07-53b3-45d2-a595-238678d3ca31/_index.md
-
 <script>
 (function() {
     const personId = "70e7cb07-53b3-45d2-a595-238678d3ca31";

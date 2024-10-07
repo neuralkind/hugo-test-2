@@ -2,7 +2,8 @@
 .h1 {
     font-family: 'Roboto', sans-serif;
     font-size: clamp(2.5rem, 6vw, 4.5rem);
-    color: red;
+    /* color: red; */
+    color: black;
 }
 
 .h1_1 {
@@ -56,7 +57,8 @@
 .bebas-30-black {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 30px;
-    color: red;
+    /* color: red; */
+    color: black;
 }
 
 /* View */

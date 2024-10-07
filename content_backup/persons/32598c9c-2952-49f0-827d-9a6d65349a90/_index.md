@@ -5,8 +5,6 @@ draft = false
 society = "station_11-2024-10-04"
 groups = ['32720e01-72a9-4a55-9293-963b1a048ebc']
 +++
-This is content/persons/32598c9c-2952-49f0-827d-9a6d65349a90/_index.md
-
 <script>
 (function() {
     const personId = "32598c9c-2952-49f0-827d-9a6d65349a90";
@@ -27,7 +25,8 @@ This is content/persons/32598c9c-2952-49f0-827d-9a6d65349a90/_index.md
     personSelect.value = personId;
     }
 })();
-</script><div class="h1_1_right">Nozomi Saito</div><br>
+</script><div class="h1_1_right">Nozomi Saito</div>{{< get_image "persons/32598c9c-2952-49f0-827d-9a6d65349a90/photo/profile.png" >}}
+<br>
 {{< audio
     path="persons/32598c9c-2952-49f0-827d-9a6d65349a90/biography/biography_audio/001.mp3" 
     caption="None"

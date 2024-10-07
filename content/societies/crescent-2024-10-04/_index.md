@@ -3,52 +3,62 @@ title = "crescent-2024-10-04"
 draft = false
 location_simple = "crescent"
 +++
-This is content/societies/crescent-2024-10-04/_index.md
 <br>
 <hr>
 <br>
-<a href="{{< ref "/persons/9fd19710-ee85-48ea-ac9f-daeb445b0e11" >}}" class="h1" title="Noah Anderson">Noah Anderson</a>
-<div class="plain">Noah Anderson, a 26-year-old American healer, is renowned f...</div><br>
+<a href="{{< ref "/persons/f84e59b4-5804-4ae1-aedf-519a20a9d1ed" >}}" class="h1" title="Noah Anderson">Noah Anderson</a>
+<div class="plain">Noah Anderson, a 23-year-old student at Chicago Univers...</div>{{< get_image "persons/f84e59b4-5804-4ae1-aedf-519a20a9d1ed/photo/profile.png" >}}
 <br>
-<a href="{{< ref "/persons/1a6161b5-dd75-45a8-b7c5-ec728fd0934b" >}}" class="h1" title="Max Delgado">Max Delgado</a>
-<div class="plain">Max Delgado is a vibrant 16-year-old aspiring...</div><br>
 <br>
-<a href="{{< ref "/persons/8fac4b65-9463-4c23-9f56-084580461449" >}}" class="h1" title="Priya Desai">Priya Desai</a>
-<div class="plain">Priya Desai, aged 16, is a dynamic figure naviga...</div><br>
+<a href="{{< ref "/persons/ebd940c3-29bc-47bd-88d9-23eca2d9df4a" >}}" class="h1" title="Max Delgado">Max Delgado</a>
+<div class="plain">Max Delgado is a vibrant 22-year-old from Brooklyn, New Yo...</div><br>
 <br>
-<a href="{{< ref "/persons/651f3695-509f-416d-b32a-e2e364e9fcce" >}}" class="h1" title="Felix Hwang">Felix Hwang</a>
-<div class="plain">Felix Hwang is an engaging, playful, and highl...</div><br>
+<a href="{{< ref "/persons/18bc2f28-f777-4fc2-a3a0-ca902f617f56" >}}" class="h1" title="Priya Desai">Priya Desai</a>
+<div class="plain">Priya Desai is a bright 21-year-old woman navi...</div>{{< get_image "persons/18bc2f28-f777-4fc2-a3a0-ca902f617f56/photo/profile.png" >}}
 <br>
-<a href="{{< ref "/persons/e0a8ef37-d926-4170-9554-6b8f5619a1b8" >}}" class="h1" title="Hana Kim">Hana Kim</a>
-<div class="plain">Hana Kim is a 17-year-old student living in Seoul, South Ko...</div><br>
 <br>
-<a href="{{< ref "/persons/480c0062-18d3-44b7-bc8a-cd994751563c" >}}" class="h1" title="Jaden King">Jaden King</a>
-<div class="plain">Jaden King is a vibrant 17-year-old sound manipu...</div><br>
+<a href="{{< ref "/persons/64a8bb47-28d4-49ef-a3be-583f6a291ca1" >}}" class="h1" title="Felix Hwang">Felix Hwang</a>
+<div class="plain">Felix Hwang, a charismatic, humorous, and crea...</div><br>
 <br>
-<a href="{{< ref "/persons/3cd57ef0-9d54-4d32-95ef-fde9b8dd80fd" >}}" class="h1" title="Kira Li">Kira Li</a>
-<div class="plain">Kira Li is a compassionate environmentalist a...</div><br>
+<a href="{{< ref "/persons/ee59859c-f605-4a46-a900-d36d9bf725e1" >}}" class="h1" title="Hana Kim">Hana Kim</a>
+<div class="plain">Hana Kim is a 22-year-old emerging artist with...</div>{{< get_image "persons/ee59859c-f605-4a46-a900-d36d9bf725e1/photo/profile.png" >}}
 <br>
-<a href="{{< ref "/persons/7088ec8d-7377-473e-be5d-59c09ad8808a" >}}" class="h1" title="Olivia Martin">Olivia Martin</a>
-<div class="plain">Olivia Martin, affectionately known as Liv...</div><br>
 <br>
-<a href="{{< ref "/persons/0f5e2dd4-464c-4ec9-986a-94a232ab8df8" >}}" class="h1" title="Kai Nakamura">Kai Nakamura</a>
-<div class="plain">Kai Nakamura is an intriguing figure, seamlessly balanci...</div><br>
+<a href="{{< ref "/persons/d52a70cf-be67-424f-8af1-01a42eb1821b" >}}" class="h1" title="Jaden King">Jaden King</a>
+<div class="plain">Jaden King is a dynamic 22-year-old sound technician an...</div>{{< get_image "persons/d52a70cf-be67-424f-8af1-01a42eb1821b/photo/profile.png" >}}
 <br>
-<a href="{{< ref "/persons/feee9e81-54d0-416d-8bbb-754783be623b" >}}" class="h1" title="Ethan Ng">Ethan Ng</a>
-<div class="plain">Ethan Ng is a dynamic individual skilled in both technology ...</div><br>
 <br>
-<a href="{{< ref "/persons/c2807a41-2980-42be-b0e6-0d3e06d7ba92" >}}" class="h1" title="Julian Nguyen">Julian Nguyen</a>
-<div class="plain">**Julian Nguyen**, a brilliant and ambitious 17-...</div><br>
+<a href="{{< ref "/persons/afed68be-9cb2-4e88-b9ea-54538962f9e3" >}}" class="h1" title="Kira Li">Kira Li</a>
+<div class="plain">Kira Li, a 21-year-old Environmental Sci...</div><br>
 <br>
-<a href="{{< ref "/persons/2956e4dd-4117-4d9a-9794-5fe37c279dc9" >}}" class="h1" title="Zoe Patel">Zoe Patel</a>
-<div class="plain">Zoe Patel, a captivating and adventurous 17-ye...</div><br>
+<a href="{{< ref "/persons/b8a81621-efb1-4d53-b927-42976f13eb4f" >}}" class="h1" title="Olivia Martin">Olivia Martin</a>
+<div class="plain">Olivia Martin is a curious and intellectually driven 21-...</div>{{< get_image "persons/b8a81621-efb1-4d53-b927-42976f13eb4f/photo/profile.png" >}}
 <br>
-<a href="{{< ref "/persons/99f8b333-78de-48a5-96f4-5a4d5a58eb86" >}}" class="h1" title="Leila Santos">Leila Santos</a>
-<div class="plain">Leila Santos, often referred to as Lei, is a highly ...</div><br>
 <br>
-<a href="{{< ref "/persons/c0bbd219-82d8-4a35-a2dc-d28053aa5163" >}}" class="h1" title="Selene White">Selene White</a>
-<div class="plain">Selene White, often called "Lena," is a 17-year-old magical ...</div><br>
+<a href="{{< ref "/persons/0ebf09fd-e1e2-45e7-b5ab-9180e66747ac" >}}" class="h1" title="Kai Nakamura">Kai Nakamura</a>
+<div class="plain">Kai Nakamura, a young Japanese architectural intern, balanc...</div>{{< get_image "persons/0ebf09fd-e1e2-45e7-b5ab-9180e66747ac/photo/profile.png" >}}
 <br>
-<a href="{{< ref "/persons/110d14e5-ac87-4e3d-9d40-b0280c33e892" >}}" class="h1" title="Mia Zhang">Mia Zhang</a>
-<div class="plain">Mia Zhang, a 17-year-old from Modern City...</div><br>
+<br>
+<a href="{{< ref "/persons/c0fc07db-cd32-4740-ba92-25ada9f3f191" >}}" class="h1" title="Ethan Ng">Ethan Ng</a>
+<div class="plain">Ethan Ng is an athletic, tech-enthusiast with the unique...</div>{{< get_image "persons/c0fc07db-cd32-4740-ba92-25ada9f3f191/photo/profile.png" >}}
+<br>
+<br>
+<a href="{{< ref "/persons/06552465-27d1-46f2-8ed2-7a2eab8b8b0d" >}}" class="h1" title="Julian Nguyen">Julian Nguyen</a>
+<div class="plain">Julian Nguyen, a 22-year-old Vietnamese-Ame...</div>{{< get_image "persons/06552465-27d1-46f2-8ed2-7a2eab8b8b0d/photo/profile.png" >}}
+<br>
+<br>
+<a href="{{< ref "/persons/6e15a1d0-57b7-4156-a490-974aa18cfdd7" >}}" class="h1" title="Zoe Patel">Zoe Patel</a>
+<div class="plain">Zoe Patel is a vibrant and adventurous 23-year-old Indian-...</div>{{< get_image "persons/6e15a1d0-57b7-4156-a490-974aa18cfdd7/photo/profile.png" >}}
+<br>
+<br>
+<a href="{{< ref "/persons/9b3b6cbc-82a1-4837-9a92-d4053acdb48d" >}}" class="h1" title="Leila Santos">Leila Santos</a>
+<div class="plain">Leila Santos, a 21-year-old Brazilian student, is a thought...</div>{{< get_image "persons/9b3b6cbc-82a1-4837-9a92-d4053acdb48d/photo/profile.png" >}}
+<br>
+<br>
+<a href="{{< ref "/persons/ea5bd4e7-bb50-4bb5-b613-fb160797368b" >}}" class="h1" title="Selene White">Selene White</a>
+<div class="plain">Selene White, a young woman of 23, is wrap...</div>{{< get_image "persons/ea5bd4e7-bb50-4bb5-b613-fb160797368b/photo/profile.png" >}}
+<br>
+<br>
+<a href="{{< ref "/persons/26c35d8f-4ab9-401a-ae38-b8006070619d" >}}" class="h1" title="Mia Zhang">Mia Zhang</a>
+<div class="plain">Mia Zhang, an energetic and determined 22-y...</div><br>
 <br>

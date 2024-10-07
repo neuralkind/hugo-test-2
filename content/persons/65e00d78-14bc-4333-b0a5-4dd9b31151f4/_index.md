@@ -5,8 +5,6 @@ draft = false
 society = "newyork_penthouse-2024-10-04"
 groups = ['01c2a365-7d29-480e-93b5-7697137e6593']
 +++
-This is content/persons/65e00d78-14bc-4333-b0a5-4dd9b31151f4/_index.md
-
 <script>
 (function() {
     const personId = "65e00d78-14bc-4333-b0a5-4dd9b31151f4";
