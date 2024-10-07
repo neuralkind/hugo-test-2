@@ -5,7 +5,7 @@ draft = false
 society = "seoul_soulmate-2024-10-04"
 groups = ['fa5774a6-5cb1-40ef-abb5-004f4e7152e2', 'f1066853-3870-4176-b02c-bc49064d084f']
 +++
-This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/0e7e2bbe-3211-451b-ba83-10f446e7f233/_index.md
+This is content/persons/0e7e2bbe-3211-451b-ba83-10f446e7f233/_index.md
 
 <div class="h1_1_right">Hae Shin</div>{{< get_image "persons/0e7e2bbe-3211-451b-ba83-10f446e7f233/photo/profile.png" >}}
 <br>

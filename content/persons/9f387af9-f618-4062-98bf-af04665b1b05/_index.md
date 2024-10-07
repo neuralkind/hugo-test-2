@@ -5,7 +5,7 @@ draft = false
 society = "seoul_soulmate-2024-10-04"
 groups = ['fa5774a6-5cb1-40ef-abb5-004f4e7152e2']
 +++
-This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/9f387af9-f618-4062-98bf-af04665b1b05/_index.md
+This is content/persons/9f387af9-f618-4062-98bf-af04665b1b05/_index.md
 
 <div class="h1_1_right">Michael Johnson</div><br>
 <br>

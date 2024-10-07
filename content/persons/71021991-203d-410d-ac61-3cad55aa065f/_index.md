@@ -5,7 +5,7 @@ draft = false
 society = "seoul_soulmate-2024-10-04"
 groups = ['fa5774a6-5cb1-40ef-abb5-004f4e7152e2', 'f1066853-3870-4176-b02c-bc49064d084f']
 +++
-This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/71021991-203d-410d-ac61-3cad55aa065f/_index.md
+This is content/persons/71021991-203d-410d-ac61-3cad55aa065f/_index.md
 
 <div class="h1_1_right">Heejin Cho</div>{{< get_image "persons/71021991-203d-410d-ac61-3cad55aa065f/photo/profile.png" >}}
 <br>

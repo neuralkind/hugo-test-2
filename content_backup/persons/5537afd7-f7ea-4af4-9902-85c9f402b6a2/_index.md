@@ -5,7 +5,7 @@ draft = false
 society = "newyork_penthouse-2024-10-04"
 groups = ['01c2a365-7d29-480e-93b5-7697137e6593', 'c9a945de-03dd-4264-85b0-c1de13b909a6']
 +++
-This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/5537afd7-f7ea-4af4-9902-85c9f402b6a2/_index.md
+This is content/persons/5537afd7-f7ea-4af4-9902-85c9f402b6a2/_index.md
 
 <div class="h1_1_right">Julian Rosenfeld</div>{{< get_image "persons/5537afd7-f7ea-4af4-9902-85c9f402b6a2/photo/profile.png" >}}
 <br>

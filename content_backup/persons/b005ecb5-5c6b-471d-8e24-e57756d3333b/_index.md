@@ -5,7 +5,7 @@ draft = false
 society = "seoul_soulmate-2024-10-04"
 groups = ['801d333c-cef4-4344-bd9c-ebab3b60a545']
 +++
-This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/b005ecb5-5c6b-471d-8e24-e57756d3333b/_index.md
+This is content/persons/b005ecb5-5c6b-471d-8e24-e57756d3333b/_index.md
 
 <div class="h1_1_right">Haruto Sato</div><br>
 <br>

@@ -5,7 +5,7 @@ draft = false
 society = "seoul_soulmate-2024-10-04"
 groups = ['fa5774a6-5cb1-40ef-abb5-004f4e7152e2']
 +++
-This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/031ab3f1-ebcb-478f-a33e-52540b65801a/_index.md
+This is content/persons/031ab3f1-ebcb-478f-a33e-52540b65801a/_index.md
 
 <div class="h1_1_right">Emily Watson</div><br>
 <br>

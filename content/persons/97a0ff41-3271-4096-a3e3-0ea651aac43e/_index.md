@@ -5,7 +5,7 @@ draft = false
 society = "seoul_soulmate-2024-10-04"
 groups = ['fa5774a6-5cb1-40ef-abb5-004f4e7152e2']
 +++
-This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/97a0ff41-3271-4096-a3e3-0ea651aac43e/_index.md
+This is content/persons/97a0ff41-3271-4096-a3e3-0ea651aac43e/_index.md
 
 <div class="h1_1_right">Ashley Martinez</div><br>
 <br>

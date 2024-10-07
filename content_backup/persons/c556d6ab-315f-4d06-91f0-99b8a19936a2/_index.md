@@ -5,7 +5,7 @@ draft = false
 society = "newyork_penthouse-2024-10-04"
 groups = ['5e45a963-ab93-4dca-bd6c-e81e7b760d98', 'c9a945de-03dd-4264-85b0-c1de13b909a6']
 +++
-This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/c556d6ab-315f-4d06-91f0-99b8a19936a2/_index.md
+This is content/persons/c556d6ab-315f-4d06-91f0-99b8a19936a2/_index.md
 
 <div class="h1_1_right">Maya Lopez</div><br>
 <br>

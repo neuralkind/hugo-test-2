@@ -5,7 +5,7 @@ draft = false
 society = "newyork_penthouse-2024-10-04"
 groups = ['01c2a365-7d29-480e-93b5-7697137e6593']
 +++
-This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/65e00d78-14bc-4333-b0a5-4dd9b31151f4/_index.md
+This is content/persons/65e00d78-14bc-4333-b0a5-4dd9b31151f4/_index.md
 
 <div class="h1_1_right">Connor O’Sullivan</div>{{< get_image "persons/65e00d78-14bc-4333-b0a5-4dd9b31151f4/photo/profile.png" >}}
 <br>

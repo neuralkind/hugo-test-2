@@ -5,7 +5,7 @@ draft = false
 society = "seoul_soulmate-2024-10-04"
 groups = ['f1066853-3870-4176-b02c-bc49064d084f']
 +++
-This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/70e7cb07-53b3-45d2-a595-238678d3ca31/_index.md
+This is content/persons/70e7cb07-53b3-45d2-a595-238678d3ca31/_index.md
 
 <div class="h1_1_right">Ga-young Im</div>{{< get_image "persons/70e7cb07-53b3-45d2-a595-238678d3ca31/photo/profile.png" >}}
 <br>

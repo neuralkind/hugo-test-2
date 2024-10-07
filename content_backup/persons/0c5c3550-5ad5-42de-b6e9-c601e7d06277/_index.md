@@ -5,7 +5,7 @@ draft = false
 society = "seoul_soulmate-2024-10-04"
 groups = ['801d333c-cef4-4344-bd9c-ebab3b60a545']
 +++
-This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/0c5c3550-5ad5-42de-b6e9-c601e7d06277/_index.md
+This is content/persons/0c5c3550-5ad5-42de-b6e9-c601e7d06277/_index.md
 
 <div class="h1_1_right">Mi-young Song</div><br>
 <br>

@@ -5,7 +5,7 @@ draft = false
 society = "newyork_penthouse-2024-10-04"
 groups = ['db97cc8b-2af6-44eb-883b-d300d2b82336', '236bc21f-5b07-49b6-9029-5045495f4dc6', '5e45a963-ab93-4dca-bd6c-e81e7b760d98', '01c2a365-7d29-480e-93b5-7697137e6593']
 +++
-This is /Users/joonheekim/Projects/hugo/my-hugo-site/content/persons/867d0ed2-8832-443c-a876-eb73d18ec9d8/_index.md
+This is content/persons/867d0ed2-8832-443c-a876-eb73d18ec9d8/_index.md
 
 <div class="h1_1_right">Amara Okafor</div>{{< get_image "persons/867d0ed2-8832-443c-a876-eb73d18ec9d8/photo/profile.png" >}}
 <br>
