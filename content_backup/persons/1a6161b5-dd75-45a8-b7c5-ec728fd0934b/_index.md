@@ -1,0 +1,38 @@
++++
+title = "Max Delgado"
+person_id = "1a6161b5-dd75-45a8-b7c5-ec728fd0934b"
+draft = false
+society = "crescent-2024-10-04"
+groups = ['93aa2ac3-2fc2-46a8-ada3-06422c1a3d20']
++++
+This is content/persons/1a6161b5-dd75-45a8-b7c5-ec728fd0934b/_index.md
+
+<script>
+(function() {
+    const personId = "1a6161b5-dd75-45a8-b7c5-ec728fd0934b";
+    const societyId = "crescent-2024-10-04";
+
+    // Set the selected person and society in localStorage
+    localStorage.setItem('selectedPerson', personId);
+    localStorage.setItem('selectedSociety', societyId);
+
+    // Automatically set the dropdowns based on this person's data
+    const societySelect = document.getElementById('society-select');
+    const personSelect = document.getElementById('person-select');
+
+    if (societySelect) {
+    societySelect.value = societyId;
+    }
+    if (personSelect) {
+    personSelect.value = personId;
+    }
+})();
+</script><div class="h1_1_right">Max Delgado</div><br>
+{{< audio
+    path="persons/1a6161b5-dd75-45a8-b7c5-ec728fd0934b/biography/biography_audio/001.mp3" 
+    caption="None"
+>}}
+<br>
+<div class="h2">Persona</div><div class="plain">Max Delgado is a vibrant 16-year-old aspiring sound engineer and magical trainee with an extraordinary ability to amplify sounds. Known affectionately as "Maxy," he thrives in energetic environments, possessing a dynamic personality characterized by high extraversion, agreeableness, and openness. Raised in Los Angeles by a single mother, Max is a charismatic figure comfortable in the limelight as the class clown. His talents in public speaking, beatboxing, and comedic performances highlight his passion for entertainment. Despite his impulsive and sometimes distractible nature, Max's goal is clear: to master his magical abilities while creating innovative sound experiences. His journey is driven by a persistent optimism and a desire to foster genuine friendships.</div><br>
+<div class="h2">Early Life</div><div class="plain">From an early age, Max showed a fascination with sounds and music, accompanied by remarkable moments shaping his childhood. He cherished family karaoke nights and the feeling of exhilaration when being the center of attention. A significant memory was when his sister's lullaby unintentionally amplified, hinting at his unique magical ability. His innate talent didn't go unnoticed; Mr. Ortiz, his music teacher, recognized his potential, encouraging extra practice sessions that enriched his skills. His voice brought tremendous applause in public contests, cementing his passion for captivating audiences. Despite moments of nervousness, like his first day at school, Max has always displayed an optimistic enthusiasm, bringing joy and laughter to those around him.</div><br>
+<div class="h2">Recent Life</div><div class="plain">Max's recent experiences have broadened his auditory horizons and explored different cultures' soundscapes. At 20, a cultural internship in Tokyo introduced him to new techniques alongside vibrant festivals, enhancing his appreciation for diverse sound elements. Subsequently, Max enrolled in Vienna's prestigious university for a sound engineering degree, fueling his innovation and passion. A summer internship in Nashville honed his expertise, integrating magical abilities with technical sound production. Seeking inspiration, he spent a year in Reykjavik, crafting unique symphonies while embracing self-reflection. This journey saw him thrive in collaboration during a residency program in NYC and captivate audiences on an exciting tour with a popular band in Shanghai, cementing his career as a sound engineer.</div><br>
