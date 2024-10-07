@@ -1,0 +1,43 @@
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+    {{ $image1 := resources.GetMatch (.Get 0) }}
+    {{ $image2 := resources.GetMatch (.Get 1) }}
+    {{ $image3 := resources.GetMatch (.Get 2) }}
+    {{ $image4 := resources.GetMatch (.Get 3) }}
+  
+    {{ if $image1 }}
+      <div style="position: relative; flex: 1 1 calc(50% - 10px);">
+        <img src="{{ $image1.RelPermalink }}" style="width: 100%; height: auto;" alt="Responsive Image">
+        <div style="position: absolute; top: 20px; left: 20px; color: white; font-size: 24px; font-family: Arial, sans-serif;">
+          {{ .Get 4 | default "Text 1" }}
+        </div>
+      </div>
+    {{ end }}
+  
+    {{ if $image2 }}
+      <div style="position: relative; flex: 1 1 calc(50% - 10px);">
+        <img src="{{ $image2.RelPermalink }}" style="width: 100%; height: auto;" alt="Responsive Image">
+        <div style="position: absolute; top: 20px; left: 20px; color: white; font-size: 24px; font-family: Arial, sans-serif;">
+          {{ .Get 5 | default "Text 2" }}
+        </div>
+      </div>
+    {{ end }}
+  
+    {{ if $image3 }}
+      <div style="position: relative; flex: 1 1 calc(50% - 10px);">
+        <img src="{{ $image3.RelPermalink }}" style="width: 100%; height: auto;" alt="Responsive Image">
+        <div style="position: absolute; top: 20px; left: 20px; color: white; font-size: 24px; font-family: Arial, sans-serif;">
+          {{ .Get 6 | default "Text 3" }}
+        </div>
+      </div>
+    {{ end }}
+  
+    {{ if $image4 }}
+      <div style="position: relative; flex: 1 1 calc(50% - 10px);">
+        <img src="{{ $image4.RelPermalink }}" style="width: 100%; height: auto;" alt="Responsive Image">
+        <div style="position: absolute; top: 20px; left: 20px; color: white; font-size: 24px; font-family: Arial, sans-serif;">
+          {{ .Get 7 | default "Text 4" }}
+        </div>
+      </div>
+    {{ end }}
+  </div>
+  
