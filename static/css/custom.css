@@ -13,6 +13,14 @@
     color: black;
 }
 
+
+.h1_3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    color: black;
+}
+
 .h1_1_right {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
@@ -38,6 +46,7 @@
     color: black;
     text-align: right;
 }
+
 
 
 .plain {
